@@ -13,7 +13,26 @@ const Footer = () => {
     }
     return error;
   }
-  const sendEmail = (ms) => new Promise((r) => setTimeout(r, ms));
+  // sendEmail should be a function that sned the value of the email field to a fetch request
+  const sendEmail = ({ email }) => {
+    let data = {
+      "Subscribe email": email,
+      "Data Collection": "Accepted the data collection",
+      "Form Origin": "From WeMaAd Website subscribe newsletter",
+    };
+    // fetch the values of the email field and send it to the server
+    fetch("https://usebasin.com/f/f5aeb5b551e1", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(data),
+    })
+      .then((res) => res.json())
+      .then((data) => console.log(data))
+      .catch((err) => console.log(err));
+  };
+  // const sendEmail = (ms) => new Promise((r) => setTimeout(r, ms));
   return (
     <footer className="footer-half sub-bg section-padding pb-0">
       <div className="container">
@@ -21,38 +40,47 @@ const Footer = () => {
           <div className="col-lg-5">
             <div className="cont">
               <div className="logo">
-                <a href="#0">
+                <a href="#0" className="d-flex">
                   <img src={`${appData.lightLogo}`} alt="" />
+                  <h2>WeMaAd</h2>
                 </a>
               </div>
               <div className="con-info custom-font">
                 <ul>
                   <li>
-                    <span>Email : </span> Avo_support@website.com
+                    <span>Email : </span>
+                    <a href="mailto:hello@wemaad.net">Hello@wemaad.net</a>
                   </li>
-                  <li>
+                  {/* <li>
                     <span>Address : </span> A32 , Ave 15th Street, Door 211, San
                     Franciso, USA 32490.
-                  </li>
+                  </li> */}
                   <li>
-                    <span>Phone : </span> (+1) 2345 678 44 88
+                    <span>Phone : </span>
+                    <a href="tel:+201142549787">+20 114 254 9787</a>
                   </li>
                 </ul>
               </div>
               <div className="social-icon">
                 <h6 className="custom-font stit simple-btn">Follow Us</h6>
                 <div className="social">
-                  <a href="#0" className="icon">
+                  <a href="https://www.facebook.com/" className="icon">
                     <i className="fab fa-facebook-f"></i>
                   </a>
-                  <a href="#0" className="icon">
+                  <a
+                    href="https://www.instagram.com/wemaad.llc/"
+                    className="icon"
+                  >
+                    <i className="fab fa-instagram"></i>
+                  </a>
+                  <a href="https://twitter.com/WemaadL" className="icon">
                     <i className="fab fa-twitter"></i>
                   </a>
-                  <a href="#0" className="icon">
-                    <i className="fab fa-pinterest"></i>
-                  </a>
-                  <a href="#0" className="icon">
-                    <i className="fab fa-behance"></i>
+                  <a
+                    href="https://www.linkedin.com/company/wemaad/"
+                    className="icon"
+                  >
+                    <i className="fab fa-linkedin"></i>
                   </a>
                 </div>
               </div>
@@ -61,16 +89,27 @@ const Footer = () => {
           <div className="col-lg-5 offset-lg-2">
             <div className="subscribe mb-50">
               <h6 className="custom-font stit simple-btn">Newslatter</h6>
-              <p>Sign up for subscribe out newsletter!</p>
+              <p>
+                Sign up for subscribe out newsletter! subscribed clients to our
+                newsletter will receive a 10% discount on their first purchase
+              </p>
               <Formik
                 initialValues={{
-                  subscribe: "",
+                  email: "",
                 }}
                 onSubmit={async (values) => {
-                  await sendEmail(500);
-                  alert(JSON.stringify(values, null, 2));
+                  await sendEmail(values);
+                  // alert(JSON.stringify(values, null, 2));
+                  // send the email to a google sheet using the values.email using the google api sheet
+                  document.querySelector(".alert-success").style.display =
+                    "block";
+                  setTimeout(() => {
+                    document.querySelector(".alert-success").style.display =
+                      "none";
+                  }, 5000);
+
                   // Reset the values
-                  values.subscribe = "";
+                  values.email = "";
                 }}
               >
                 {({ errors, touched }) => (
@@ -79,29 +118,38 @@ const Footer = () => {
                       <Field
                         validate={validateEmail}
                         type="email"
-                        name="subscribe"
+                        name="email"
                         placeholder="Your Email"
                       />
                       {errors.email && touched.email && (
                         <div>{errors.email}</div>
                       )}
-                      <button className="cursor-pointer">Subscribe</button>
+                      <button className="cursor-pointer" type="submit">
+                        Subscribe
+                      </button>
                     </div>
                   </Form>
                 )}
               </Formik>
+              <div
+                class="alert alert-success"
+                style={{ display: "none", marginTop: "10px" }}
+                role="alert"
+              >
+                Thank you for subscribing to our newsletter
+              </div>
             </div>
             <div className="insta">
               <h6 className="custom-font stit simple-btn">Instagram Post</h6>
               <div className="insta-gallary">
-                <a href="#0">
-                  <img src="/img/insta/1.jpg" alt="" />
+                <a href="https://www.instagram.com/wemaad.llc/">
+                  <img src="/img/insta/1-1.jpg" alt="" />
                 </a>
-                <a href="#0">
-                  <img src="/img/insta/2.jpg" alt="" />
+                <a href="https://www.instagram.com/wemaad.llc/">
+                  <img src="/img/insta/2-1.jpg" alt="" />
                 </a>
-                <a href="#0">
-                  <img src="/img/insta/3.jpg" alt="" />
+                <a href="https://www.instagram.com/wemaad.llc/">
+                  <img src="/img/insta/3-1.jpg" alt="" />
                 </a>
               </div>
             </div>
