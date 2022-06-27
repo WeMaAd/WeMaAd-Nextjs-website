@@ -2,44 +2,44 @@
   {
     "id": 1,
     "lightImage": "/img/clients/brands/light/1.png",
-    "darkImage": "/img/clients/brands/dark/01.png",
+    "darkImage": "/img/clients/brands/dark/logo-inverse-big@2x.png",
     "url": "https://24events.sa/",
     "name": "24events"
   },
   {
     "id": 2,
-    "lightImage": "/img/clients/brands/light/2.png",
-    "darkImage": "/img/clients/brands/dark/02.png",
-    "url": "https://www.laslab.net/",
-    "name": "Laslab"
-  },
-  {
-    "id": 3,
-    "lightImage": "/img/clients/brands/light/3.png",
-    "darkImage": "/img/clients/brands/dark/03.png",
+    "lightImage": "/img/clients/brands/light/Primo-light-theme.svg",
+    "darkImage": "/img/clients/brands/dark/Primo-dark-theme.svg",
     "url": "https://primo.so/",
     "name": "Primo"
   },
   {
-    "id": 4,
+    "id": 3,
     "lightImage": "/img/clients/brands/light/4.png",
     "darkImage": "/img/clients/brands/dark/04.png",
-    "url": "https://cleaningweb.vercel.app/",
-    "name": "Cleaning Website"
+    "url": "https://birthguardians-eg.org/",
+    "name": "Birth Guardians"
   },
   {
-    "id": 5,
+    "id": 4,
     "lightImage": "/img/clients/brands/light/5.png",
-    "darkImage": "/img/clients/brands/dark/05.png",
+    "darkImage": "/img/clients/brands/dark/CairoCodesLogo1.svg",
     "url": "https://cairo-codes.org/",
     "name": "Cairo Codes"
   },
   {
-    "id": 6,
+    "id": 5,
     "lightImage": "/img/clients/brands/light/6.png",
     "darkImage": "/img/clients/brands/dark/06.png",
-    "url": "https://birthguardians-eg.org/",
-    "name": "Birth Guardians"
+    "url": "https://cleaningweb.vercel.app/",
+    "name": "Cleaning Website"
+  },
+  {
+    "id": 6,
+    "lightImage": "/img/clients/brands/light/2.png",
+    "darkImage": "/img/clients/brands/dark/02.png",
+    "url": "https://www.laslab.net/",
+    "name": "Laslab"
   },
   {
     "id": 7,
