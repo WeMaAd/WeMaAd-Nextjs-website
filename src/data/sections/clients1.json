@@ -1,8 +1,8 @@
 [
   {
     "id": 1,
-    "lightImage": "/img/clients/brands/light/1.png",
-    "darkImage": "/img/clients/brands/dark/logo-inverse-big@2x.png",
+    "lightImage": "/img/clients/brands/light/24EventsLogo.png",
+    "darkImage": "/img/clients/brands/dark/24EventsLogo.png",
     "url": "https://24events.sa/",
     "name": "24events"
   },
@@ -15,29 +15,29 @@
   },
   {
     "id": 3,
-    "lightImage": "/img/clients/brands/light/4.png",
-    "darkImage": "/img/clients/brands/dark/04.png",
+    "lightImage": "/img/clients/brands/light/BirthGuardiansLogo.png",
+    "darkImage": "/img/clients/brands/dark/BirthGuardiansLogo.png",
     "url": "https://birthguardians-eg.org/",
     "name": "Birth Guardians"
   },
   {
     "id": 4,
-    "lightImage": "/img/clients/brands/light/5.png",
+    "lightImage": "/img/clients/brands/light/CairoCodesLogo.svg",
     "darkImage": "/img/clients/brands/dark/CairoCodesLogo.svg",
     "url": "https://cairo-codes.org/",
     "name": "Cairo Codes"
   },
   {
     "id": 5,
-    "lightImage": "/img/clients/brands/light/6.png",
-    "darkImage": "/img/clients/brands/dark/06.png",
+    "lightImage": "/img/clients/brands/light/CleaningCompanyLogo.svg",
+    "darkImage": "/img/clients/brands/dark/CleaningCompanyLogo.svg",
     "url": "https://cleaningweb.vercel.app/",
     "name": "Cleaning Website"
   },
   {
     "id": 6,
-    "lightImage": "/img/clients/brands/light/2.png",
-    "darkImage": "/img/clients/brands/dark/02.png",
+    "lightImage": "/img/clients/brands/light/LasLabLogo.png",
+    "darkImage": "/img/clients/brands/dark/LasLabLogo.png",
     "url": "https://www.laslab.net/",
     "name": "Laslab"
   },
