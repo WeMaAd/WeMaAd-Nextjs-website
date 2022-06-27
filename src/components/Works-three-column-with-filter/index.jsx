@@ -10,7 +10,7 @@ const WorksThreeColumnWithFilter = ({ filterPosition }) => {
     if (pageLoaded) {
       setTimeout(() => {
         initIsotope();
-      }, 1000)
+      }, 1000);
     }
   }, [pageLoaded]);
   return (
@@ -41,7 +41,7 @@ const WorksThreeColumnWithFilter = ({ filterPosition }) => {
               <div className="item-img wow fadeInUp" data-wow-delay=".4s">
                 <Link href="/project-details/project-details-dark">
                   <a>
-                    <img src="/img/portfolio/mas/01.jpg" alt="image" />
+                    <img src="/img/portfolio/mas/01-1.jpg" alt="image" />
                   </a>
                 </Link>
               </div>
@@ -57,7 +57,7 @@ const WorksThreeColumnWithFilter = ({ filterPosition }) => {
               <div className="item-img wow fadeInUp" data-wow-delay=".4s">
                 <Link href="/project-details/project-details-dark">
                   <a>
-                    <img src="/img/portfolio/mas/02.jpg" alt="image" />
+                    <img src="/img/portfolio/mas/02-1.jpg" alt="image" />
                   </a>
                 </Link>
               </div>
@@ -73,7 +73,7 @@ const WorksThreeColumnWithFilter = ({ filterPosition }) => {
               <div className="item-img wow fadeInUp" data-wow-delay=".4s">
                 <Link href="/project-details/project-details-dark">
                   <a>
-                    <img src="/img/portfolio/mas/03.jpg" alt="image" />
+                    <img src="/img/portfolio/mas/03-1.jpg" alt="image" />
                   </a>
                 </Link>
               </div>
@@ -89,7 +89,7 @@ const WorksThreeColumnWithFilter = ({ filterPosition }) => {
               <div className="item-img wow fadeInUp" data-wow-delay=".4s">
                 <Link href="/project-details/project-details-dark">
                   <a>
-                    <img src="/img/portfolio/mas/06.jpg" alt="image" />
+                    <img src="/img/portfolio/mas/06-1.jpg" alt="image" />
                   </a>
                 </Link>
               </div>
@@ -105,7 +105,7 @@ const WorksThreeColumnWithFilter = ({ filterPosition }) => {
               <div className="item-img wow fadeInUp" data-wow-delay=".4s">
                 <Link href="/project-details/project-details-dark">
                   <a>
-                    <img src="/img/portfolio/mas/05.jpg" alt="image" />
+                    <img src="/img/portfolio/mas/05-1.jpg" alt="image" />
                   </a>
                 </Link>
               </div>
@@ -121,7 +121,7 @@ const WorksThreeColumnWithFilter = ({ filterPosition }) => {
               <div className="item-img wow fadeInUp" data-wow-delay=".4s">
                 <Link href="/project-details/project-details-dark">
                   <a>
-                    <img src="/img/portfolio/mas/04.jpg" alt="image" />
+                    <img src="/img/portfolio/mas/04-1.jpg" alt="image" />
                   </a>
                 </Link>
               </div>

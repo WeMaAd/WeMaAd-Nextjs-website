@@ -87,7 +87,7 @@ const NumbersWithVideo = () => {
                   </div>
                   <div className="wow imago">
                     <div className="img">
-                      <img src="/img/vid.jpg" alt="" />
+                      <img src="/img/vid-1.jpg" alt="" />
                     </div>
                     <div className="vid-icon">
                       {typeof window !== "undefined" && (

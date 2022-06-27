@@ -5,7 +5,7 @@ import "react-circular-progressbar/dist/styles.css";
 const SkillsCircle = ({ subBG, theme }) => {
   const cpStyle = {
     path: {
-      stroke: "#75dab4",
+      stroke: "#1bd8eb",
     },
     trail: {
       stroke: theme ? (theme == "dark" ? "#0f1218" : "#e5e5e5") : "",
@@ -16,11 +16,7 @@ const SkillsCircle = ({ subBG, theme }) => {
     },
   };
   return (
-    <section
-      className={`skills-circle pt-50 pb-50 ${
-        subBG ? "sub-bg" : ""
-      }`}
-    >
+    <section className={`skills-circle pt-50 pb-50 ${subBG ? "sub-bg" : ""}`}>
       <div className="container">
         <div className="row">
           <div className="col-lg-7">
