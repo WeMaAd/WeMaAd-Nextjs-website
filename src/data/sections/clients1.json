@@ -43,15 +43,15 @@
   },
   {
     "id": 7,
-    "lightImage": "/img/clients/brands/light/7.png",
-    "darkImage": "/img/clients/brands/dark/07.png",
+    "lightImage": "/img/atom-logo-light.svg",
+    "darkImage": "/img/atom-logo-dark.svg",
     "url": "https://wemaad.net/",
     "name": "Wemaad"
   },
   {
     "id": 8,
-    "lightImage": "/img/clients/brands/light/8.png",
-    "darkImage": "/img/clients/brands/dark/08.png",
+    "lightImage": "/img/atom-logo-light.svg",
+    "darkImage": "/img/atom-logo-dark.svg",
     "url": "https://wemaad.net/",
     "name": "Wemaad"
   }
