@@ -150,17 +150,17 @@ const IntroWithSlider3 = () => {
           >
             <SwiperSlide
               className="swiper-slide bg-img"
-              style={{ backgroundImage: 'url("/img/slid/1.jpg")' }}
+              style={{ backgroundImage: 'url("/img/slid/1-1.jpg")' }}
               data-overlay-dark="6"
             ></SwiperSlide>
             <SwiperSlide
               className="swiper-slide bg-img"
-              style={{ backgroundImage: 'url("/img/slid/2.jpg")' }}
+              style={{ backgroundImage: 'url("/img/slid/2-1.jpg")' }}
               data-overlay-dark="6"
             ></SwiperSlide>
             <SwiperSlide
               className="swiper-slide bg-img"
-              style={{ backgroundImage: 'url("/img/slid/3.jpg")' }}
+              style={{ backgroundImage: 'url("/img/slid/3-1.jpg")' }}
               data-overlay-dark="6"
             ></SwiperSlide>
           </Swiper>
@@ -168,7 +168,7 @@ const IntroWithSlider3 = () => {
       </div>
       <div
         className="curve-bg bg-img"
-        style={{ backgroundImage: 'url("/img/business-bg.png")' }}
+        style={{ backgroundImage: 'url("/img/business-bg-1.png")' }}
       ></div>
 
       <div className="setone">
