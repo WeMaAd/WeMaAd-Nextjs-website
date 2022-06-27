@@ -132,7 +132,7 @@ const Footer = () => {
                 )}
               </Formik>
               <div
-                class="alert alert-success"
+                className="alert alert-success"
                 style={{ display: "none", marginTop: "10px" }}
                 role="alert"
               >

@@ -49,6 +49,7 @@ const Clients1 = ({ theme, subBG }) => {
                             className="link words chars splitting"
                             data-splitting
                             target="_blank"
+                            rel="noreferrer"
                           >
                             {item.name}
                           </a>
@@ -100,6 +101,7 @@ const Clients1 = ({ theme, subBG }) => {
                             className="link words chars splitting"
                             data-splitting
                             target="_blank"
+                            rel="noreferrer"
                           >
                             {item.name}
                           </a>
