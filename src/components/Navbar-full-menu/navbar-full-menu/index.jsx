@@ -250,18 +250,20 @@ const NavbarFullMenu = ({ theme, lr }) => {
               <div className="cont-info">
                 <div className="item">
                   <h6>Phone :</h6>
-                  <p>+03 762-2367-723</p>
+                  <p>
+                    <a href="tel:+201142549787">+20 114 254 9787</a>
+                  </p>
                 </div>
-                <div className="item">
+                {/* <div className="item">
                   <h6>Address :</h6>
                   <p>
                     541 Melville Ave, Palo Alto, CA 94301, ask@ohio.colabr.io
                   </p>
-                </div>
+                </div> */}
                 <div className="item">
                   <h6>Email :</h6>
                   <p>
-                    <a href="#0">Avo_website@gmail.com</a>
+                    <a href="mailto:hello@wemaad.net">Hello@wemaad.net</a>
                   </p>
                 </div>
               </div>

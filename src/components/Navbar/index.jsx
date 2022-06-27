@@ -1,17 +1,17 @@
 /* eslint-disable @next/next/no-img-element */
 import React from "react";
-import { Formik, Form, Field } from "formik";
+// import { Formik, Form, Field } from "formik";
 import Link from "next/link";
 import appData from "../../data/app.json";
 import {
   handleDropdown,
   handleMobileDropdown,
-  handleSearch,
+  // handleSearch,
 } from "../../common/navbar";
 
 const Navbar = ({ lr, nr, theme }) => {
   React.useEffect(() => {
-    handleSearch();
+    // handleSearch();
   }, []);
   return (
     <nav
@@ -22,7 +22,7 @@ const Navbar = ({ lr, nr, theme }) => {
     >
       <div className="container">
         <Link href="/">
-          <a className="logo">
+          <a className="logo d-flex">
             {theme ? (
               theme === "themeL" ? (
                 <img ref={lr} src={`${appData.darkLogo}`} alt="logo" />
@@ -32,6 +32,7 @@ const Navbar = ({ lr, nr, theme }) => {
             ) : (
               <img ref={lr} src={`${appData.lightLogo}`} alt="logo" />
             )}
+            <h3>WeMaAd</h3>
           </a>
         </Link>
 
@@ -145,7 +146,7 @@ const Navbar = ({ lr, nr, theme }) => {
               </Link>
             </li>
           </ul>
-          <div className="search">
+          {/* <div className="search">
             <span className="icon pe-7s-search cursor-pointer"></span>
             <div className="search-form text-center custom-font">
               <Formik
@@ -166,7 +167,7 @@ const Navbar = ({ lr, nr, theme }) => {
               </Formik>
               <span className="close pe-7s-close cursor-pointer"></span>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </nav>
