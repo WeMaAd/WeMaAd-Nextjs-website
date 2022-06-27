@@ -10,8 +10,8 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <title>Avo</title>
-        <link rel="icon" href="/img/favicon.ico" />
+        <title>WeMaAd</title>
+        <link rel="icon" href="/img/atom-logo-light.svg" />
       </Head>
       <Cursor />
       <LoadingScreen />
