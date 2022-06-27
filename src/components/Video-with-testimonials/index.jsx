@@ -23,7 +23,7 @@ const VideoWithTestimonials = () => {
     <section className="block-sec">
       <div
         className="background bg-img section-padding pb-0"
-        style={{ backgroundImage: `url(/img/slid/1.jpg)` }}
+        style={{ backgroundImage: `url(/img/slid/1-1.jpg)` }}
         data-overlay-dark="8"
       >
         <div className="container">
@@ -87,7 +87,7 @@ const VideoWithTestimonials = () => {
                     <div className="info">
                       <div className="img">
                         <div className="img-box">
-                          <img src="/img/clients/1.jpg" alt="" />
+                          <img src="/img/clients/1-1.jpg" alt="" />
                         </div>
                       </div>
                       <div className="cont">
@@ -111,7 +111,7 @@ const VideoWithTestimonials = () => {
                     <div className="info">
                       <div className="img">
                         <div className="img-box">
-                          <img src="/img/clients/2.jpg" alt="" />
+                          <img src="/img/clients/2-1.jpg" alt="" />
                         </div>
                       </div>
                       <div className="cont">
@@ -135,7 +135,7 @@ const VideoWithTestimonials = () => {
                     <div className="info">
                       <div className="img">
                         <div className="img-box">
-                          <img src="/img/clients/3.jpg" alt="" />
+                          <img src="/img/clients/3-1.jpg" alt="" />
                         </div>
                       </div>
                       <div className="cont">
