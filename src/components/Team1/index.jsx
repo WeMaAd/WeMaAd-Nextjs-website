@@ -52,6 +52,7 @@ class Team1 extends React.Component {
                   autoplay: true,
                   slidesToScroll: 1,
                   slidesToShow: 4,
+                  width: 250,
                   responsive: [
                     {
                       breakpoint: 1024,
@@ -68,7 +69,7 @@ class Team1 extends React.Component {
                     {
                       breakpoint: 480,
                       settings: {
-                        slidesToShow: 1,
+                        slidesToShow: 2,
                       },
                     },
                   ],
