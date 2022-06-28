@@ -17,7 +17,7 @@ const NavbarFullMenu = ({ theme, lr }) => {
       >
         <div className="container-fluid">
           <div className="logo">
-            <a href="#0">
+            <a href="/" className="d-flex">
               {theme ? (
                 theme === "light" ? (
                   <img src={`${appData.darkLogo}`} alt="logo" />
@@ -27,6 +27,7 @@ const NavbarFullMenu = ({ theme, lr }) => {
               ) : (
                 <img src={`${appData.lightLogo}`} alt="logo" />
               )}
+              <h3>WeMaAd</h3>
             </a>
           </div>
           <div className="menu-icon">
@@ -49,7 +50,8 @@ const NavbarFullMenu = ({ theme, lr }) => {
             <div className="col-lg-9 col-md-8">
               <div className="menu-links">
                 <ul className="main-menu">
-                  <li>
+                  {/* Home navbar */}
+                  {/* <li>
                     <div className="o-hidden">
                       <span className="link dmenu">
                         <span className="nm">01.</span>Home
@@ -58,7 +60,7 @@ const NavbarFullMenu = ({ theme, lr }) => {
                     </div>
                     <div className="sub-menu">
                       <ul>
-                        <li>
+                         <li>
                           <div className="o-hidden">
                             <span className="sub-link back">
                               <i className="pe-7s-angle-left"></i> Go Back
@@ -112,7 +114,18 @@ const NavbarFullMenu = ({ theme, lr }) => {
                         </li>
                       </ul>
                     </div>
+                  </li> */}
+                  <li>
+                    <div className="o-hidden">
+                      <Link href="/">
+                        <a className="link">
+                          <span className="nm">01.</span>Home
+                        </a>
+                      </Link>
+                    </div>
                   </li>
+
+                  {/* About Us navbar */}
                   <li>
                     <div className="o-hidden">
                       <Link href="/about/about-dark">
@@ -122,7 +135,9 @@ const NavbarFullMenu = ({ theme, lr }) => {
                       </Link>
                     </div>
                   </li>
-                  <li>
+
+                  {/* Portfolio navbar */}
+                  {/* <li>
                     <div className="o-hidden">
                       <span className="link dmenu">
                         <span className="nm">03.</span>Portfolio
@@ -176,9 +191,19 @@ const NavbarFullMenu = ({ theme, lr }) => {
                         </li>
                       </ul>
                     </div>
+                  </li> */}
+                  <li>
+                    <div className="o-hidden">
+                      <Link href="/works2/works2-dark/">
+                        <a className="link">
+                          <span className="nm">03.</span>Portfolio
+                        </a>
+                      </Link>
+                    </div>
                   </li>
 
-                  <li>
+                  {/* Showcases navbar */}
+                  {/* <li>
                     <div className="o-hidden">
                       <span className="link dmenu">
                         <span className="nm">04.</span>Showcases
@@ -232,8 +257,18 @@ const NavbarFullMenu = ({ theme, lr }) => {
                         </li>
                       </ul>
                     </div>
+                  </li> */}
+                  <li>
+                    <div className="o-hidden">
+                      <Link href="/showcase2/showcase2-dark">
+                        <a className="link">
+                          <span className="nm">04.</span>Showcases
+                        </a>
+                      </Link>
+                    </div>
                   </li>
 
+                  {/* Contact navbar */}
                   <li>
                     <div className="o-hidden">
                       <Link href="/contact/contact-dark">
@@ -254,6 +289,8 @@ const NavbarFullMenu = ({ theme, lr }) => {
                     <a href="tel:+201142549787">+20 114 254 9787</a>
                   </p>
                 </div>
+
+                {/*  Address */}
                 {/* <div className="item">
                   <h6>Address :</h6>
                   <p>
