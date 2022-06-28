@@ -109,9 +109,7 @@ const Works2Slider = ({ subBG }) => {
                           ></div>
                           <div className="cont bgbox">
                             <h6>
-                              <Link href="/works2/works2-dark">
-                                art &amp; illustration
-                              </Link>
+                              <Link href="/works2">art &amp; illustration</Link>
                             </h6>
                             <h4>
                               <Link href="/project-details/project-details-dark">
@@ -141,9 +139,7 @@ const Works2Slider = ({ subBG }) => {
                           ></div>
                           <div className="cont bgbox">
                             <h6>
-                              <Link href="/works2/works2-dark">
-                                art &amp; illustration
-                              </Link>
+                              <Link href="/works2">art &amp; illustration</Link>
                             </h6>
                             <h4>
                               <Link href="/project-details/project-details-dark">
@@ -173,9 +169,7 @@ const Works2Slider = ({ subBG }) => {
                           ></div>
                           <div className="cont bgbox">
                             <h6>
-                              <Link href="/works2/works2-dark">
-                                art &amp; illustration
-                              </Link>
+                              <Link href="/works2">art &amp; illustration</Link>
                             </h6>
                             <h4>
                               <Link href="/project-details/project-details-dark">
@@ -205,9 +199,7 @@ const Works2Slider = ({ subBG }) => {
                           ></div>
                           <div className="cont bgbox">
                             <h6>
-                              <Link href="/works2/works2-dark">
-                                art &amp; illustration
-                              </Link>
+                              <Link href="/works2">art &amp; illustration</Link>
                             </h6>
                             <h4>
                               <Link href="/project-details/project-details-dark">
@@ -237,9 +229,7 @@ const Works2Slider = ({ subBG }) => {
                           ></div>
                           <div className="cont bgbox">
                             <h6>
-                              <Link href="/works2/works2-dark">
-                                art &amp; illustration
-                              </Link>
+                              <Link href="/works2">art &amp; illustration</Link>
                             </h6>
                             <h4>
                               <Link href="/project-details/project-details-dark">
