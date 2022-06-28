@@ -15,7 +15,7 @@ const AboutHeader = () => {
               <div className="path">
                 <a href="/">Home</a>
                 <span>/</span>
-                <a href="/about/about-dark/" className="active">
+                <a href="/about" className="active">
                   About Us
                 </a>
               </div>
