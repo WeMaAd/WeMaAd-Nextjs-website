@@ -54,7 +54,7 @@ const AboutUs2 = ({ skillsTheme }) => {
                 volutpat velit class aptent taciti sociosqu ad litora.
               </p>
               <Split>
-                <Link href="/about/about-dark">
+                <Link href="/about">
                   <a
                     className="words chars splitting simple-btn custom-font mt-30 wow"
                     data-splitting
