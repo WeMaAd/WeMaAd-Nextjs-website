@@ -24,7 +24,7 @@ const Services3 = () => {
           <div className="col-lg-4 wow fadeInUp" data-wow-delay=".6s">
             <div className="step-item xcolor">
               <span className="icon pe-7s-phone"></span>
-              <h6>Web &amp;W App Development</h6>
+              <h6> App Development</h6>
               <p>
                 Tempore corrupti temporibus fuga earum asperiores fugit
                 laudantium.
@@ -33,7 +33,7 @@ const Services3 = () => {
           </div>
           <div className="col-lg-4 wow fadeInUp" data-wow-delay=".9s">
             <div className="step-item xbottom">
-              <span className="icon pe-7s-magic-wand"></span>
+              <span className="icon pe-7s-monitor"></span>
               <h6>Graphic Design</h6>
               <p>
                 Tempore corrupti temporibus fuga earum asperiores fugit
@@ -43,7 +43,7 @@ const Services3 = () => {
           </div>
         </div>
         <div className="smore custom-font">
-          <Link href="/about/about-dark">Discover More</Link>
+          <Link href="/about">Discover More</Link>
           <i className="fas fa-long-arrow-alt-right"></i>
         </div>
       </div>
