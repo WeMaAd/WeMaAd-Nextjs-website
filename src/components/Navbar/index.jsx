@@ -118,14 +118,14 @@ const Navbar = ({ lr, nr, theme }) => {
               </div>
             </li> */}
             <li className="nav-item">
-              <Link href="/showcase2/showcase2-dark">
+              <Link href="/showcase2">
                 <a className="nav-link">Showcases</a>
               </Link>
             </li>
 
             {/* About navbar */}
             <li className="nav-item">
-              <Link href="/about/about-dark">
+              <Link href="/about">
                 <a className="nav-link">About</a>
               </Link>
             </li>
@@ -157,14 +157,14 @@ const Navbar = ({ lr, nr, theme }) => {
               </div>
             </li> */}
             <li className="nav-item">
-              <Link href="/works2/works2-dark/">
+              <Link href="/works2">
                 <a className="nav-link">portfolio</a>
               </Link>
             </li>
 
             {/* Contact navbar */}
             <li className="nav-item">
-              <Link href="/contact/contact-dark">
+              <Link href="/contact">
                 <a className="nav-link">Contact</a>
               </Link>
             </li>
