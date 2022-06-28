@@ -4,7 +4,7 @@ import React from "react";
 import Link from "next/link";
 import appData from "../../data/app.json";
 import {
-  handleDropdown,
+  // handleDropdown,
   handleMobileDropdown,
   // handleSearch,
 } from "../../common/navbar";
@@ -53,7 +53,8 @@ const Navbar = ({ lr, nr, theme }) => {
 
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav ml-auto">
-            <li className="nav-item dropdown" onClick={handleDropdown}>
+            {/* Home navbar */}
+            {/* <li className="nav-item dropdown" onClick={handleDropdown}>
               <span
                 className="nav-link dropdown-toggle"
                 data-toggle="dropdown"
@@ -80,9 +81,15 @@ const Navbar = ({ lr, nr, theme }) => {
                   <a className="dropdown-item">Freelancer</a>
                 </Link>
               </div>
+            </li> */}
+            <li className="nav-item">
+              <Link href="/">
+                <a className="nav-link">Home</a>
+              </Link>
             </li>
 
-            <li className="nav-item dropdown" onClick={handleDropdown}>
+            {/* Showcases navbar */}
+            {/* <li className="nav-item dropdown" onClick={handleDropdown}>
               <span
                 className="nav-link dropdown-toggle"
                 data-toggle="dropdown"
@@ -109,13 +116,22 @@ const Navbar = ({ lr, nr, theme }) => {
                   <a className="dropdown-item">Boxed Carousel</a>
                 </Link>
               </div>
+            </li> */}
+            <li className="nav-item">
+              <Link href="/showcase2/showcase2-dark">
+                <a className="nav-link">Showcases</a>
+              </Link>
             </li>
+
+            {/* About navbar */}
             <li className="nav-item">
               <Link href="/about/about-dark">
                 <a className="nav-link">About</a>
               </Link>
             </li>
-            <li className="nav-item dropdown" onClick={handleDropdown}>
+
+            {/* portfolio navbar */}
+            {/* <li className="nav-item dropdown" onClick={handleDropdown}>
               <span
                 className="nav-link dropdown-toggle"
                 data-toggle="dropdown"
@@ -139,13 +155,22 @@ const Navbar = ({ lr, nr, theme }) => {
                   <a className="dropdown-item">Pinterest List</a>
                 </Link>
               </div>
+            </li> */}
+            <li className="nav-item">
+              <Link href="/works2/works2-dark/">
+                <a className="nav-link">portfolio</a>
+              </Link>
             </li>
+
+            {/* Contact navbar */}
             <li className="nav-item">
               <Link href="/contact/contact-dark">
                 <a className="nav-link">Contact</a>
               </Link>
             </li>
           </ul>
+
+          {/* Search navbar */}
           {/* <div className="search">
             <span className="icon pe-7s-search cursor-pointer"></span>
             <div className="search-form text-center custom-font">
