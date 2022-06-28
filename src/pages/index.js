@@ -1,4 +1,4 @@
-import HomeDark from "./home/home2-dark.jsx";
+import HomeDark from "./home";
 
 export default function Home() {
   return <HomeDark />;
