@@ -13,7 +13,7 @@ const Services2 = () => {
                 Website <br /> Developments
               </h6>
               <div className="text-right">
-                <Link href="/about/about-dark">
+                <Link href="/about">
                   <a className="more">
                     <i className="fas fa-chevron-right"></i>
                   </a>
@@ -29,10 +29,10 @@ const Services2 = () => {
             <div className="mas-item">
               <span className="icon pe-7s-camera"></span>
               <h6>
-                Product <br /> Photography
+                Product <br /> Branding
               </h6>
               <div className="text-right">
-                <Link href="/about/about-dark">
+                <Link href="/about">
                   <a className="more">
                     <i className="fas fa-chevron-right"></i>
                   </a>
@@ -48,10 +48,10 @@ const Services2 = () => {
             <div className="mas-item">
               <span className="icon pe-7s-phone"></span>
               <h6>
-                Mobile App <br /> Devlopment
+                App <br /> Devlopment
               </h6>
               <div className="text-right">
-                <Link href="/about/about-dark">
+                <Link href="/about">
                   <a className="more">
                     <i className="fas fa-chevron-right"></i>
                   </a>
@@ -67,12 +67,12 @@ const Services2 = () => {
             data-wow-delay=".4s"
           >
             <div className="mas-item">
-              <span className="icon pe-7s-diskette"></span>
+              <span className="icon pe-7s-cart"></span>
               <h6>
-                Document <br /> Legal Policy
+                E-Commerce <br /> Development
               </h6>
               <div className="text-right">
-                <Link href="/about/about-dark">
+                <Link href="/about">
                   <a className="more">
                     <i className="fas fa-chevron-right"></i>
                   </a>
@@ -86,12 +86,12 @@ const Services2 = () => {
             data-wow-delay=".4s"
           >
             <div className="mas-item">
-              <span className="icon pe-7s-help2"></span>
+              <span className="icon pe-7s-gleam"></span>
               <h6>
-                Managing <br /> Community
+                Digital <br /> Marketing
               </h6>
               <div className="text-right">
-                <Link href="/about/about-dark">
+                <Link href="/about">
                   <a className="more">
                     <i className="fas fa-chevron-right"></i>
                   </a>
@@ -105,18 +105,18 @@ const Services2 = () => {
             data-wow-delay=".4s"
           >
             <div className="mas-item">
-              <span className="icon pe-7s-arc"></span>
+              <span className="icon pe-7s-graph1"></span>
               <h6>
-                Coustomer <br /> Engagement
+                SEO & SEM <br /> Optimization
               </h6>
               <div className="text-right">
-                <Link href="/about/about-dark">
+                <Link href="/about">
                   <a className="more">
                     <i className="fas fa-chevron-right"></i>
                   </a>
                 </Link>
               </div>
-              <div className="bg-color"></div> 
+              <div className="bg-color"></div>
             </div>
           </div>
         </div>
