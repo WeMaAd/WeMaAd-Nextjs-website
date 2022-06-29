@@ -31,24 +31,25 @@ const WorksThreeColumnWithFilter = ({ filterPosition }) => {
                 All
               </span>
               <span data-filter=".brand">Branding</span>
-              <span data-filter=".web">Mobile App</span>
-              <span data-filter=".graphic">Creative</span>
+              <span data-filter=".web">web App</span>
+              <span data-filter=".graphic">Web Design</span>
             </div>
           </div>
 
           <div className="gallery full-width">
-            <div className="col-lg-4 col-md-6 items graphic lg-mr">
+            <div className="col-lg-4 col-md-6 items graphic brand lg-mr">
               <div className="item-img wow fadeInUp" data-wow-delay=".4s">
                 <Link href="/project-details/project-details-dark">
                   <a>
-                    <img src="/img/portfolio/mas/01-1.jpg" alt="image" />
+                    <img src="/img/portfolio/mas/247Company2.png" alt="image" />
                   </a>
                 </Link>
               </div>
               <div className="cont">
                 <h6>Creativity Demand</h6>
                 <span>
-                  <a href="#0">Design</a>, <a href="#0">WordPress</a>
+                  {/* <a href="#0">Design</a>, <a href="#0">WordPress</a> */}
+                  Web Design, Branding
                 </span>
               </div>
             </div>
@@ -57,46 +58,72 @@ const WorksThreeColumnWithFilter = ({ filterPosition }) => {
               <div className="item-img wow fadeInUp" data-wow-delay=".4s">
                 <Link href="/project-details/project-details-dark">
                   <a>
-                    <img src="/img/portfolio/mas/02-1.jpg" alt="image" />
+                    <img
+                      src="/img/portfolio/mas/BirthGuardiansEgypt2.png"
+                      alt="image"
+                    />
                   </a>
                 </Link>
               </div>
               <div className="cont">
                 <h6>Through The Breaking</h6>
                 <span>
-                  <a href="#0">Design</a>, <a href="#0">WordPress</a>
+                  {/* <a href="#0">Design</a>, <a href="#0">WordPress</a> */}
+                  Web Design
                 </span>
               </div>
             </div>
 
-            <div className="col-lg-4 col-md-6 items brand lg-mr">
+            <div className="col-lg-4 col-md-6 items web lg-mr">
               <div className="item-img wow fadeInUp" data-wow-delay=".4s">
                 <Link href="/project-details/project-details-dark">
                   <a>
-                    <img src="/img/portfolio/mas/03-1.jpg" alt="image" />
+                    <img src="/img/portfolio/mas/CairoCodes2.png" alt="image" />
                   </a>
                 </Link>
               </div>
               <div className="cont">
                 <h6>Create With Creatives</h6>
                 <span>
-                  <a href="#0">Design</a>, <a href="#0">WordPress</a>
+                  {/* <a href="#0">Design</a>, <a href="#0">WordPress</a> */}
+                  Web Design
                 </span>
               </div>
             </div>
 
-            <div className="col-lg-4 col-md-6 items brand">
+            <div className="col-lg-4 col-md-6 items brand graphic">
               <div className="item-img wow fadeInUp" data-wow-delay=".4s">
                 <Link href="/project-details/project-details-dark">
                   <a>
-                    <img src="/img/portfolio/mas/06-1.jpg" alt="image" />
+                    <img
+                      src="/img/portfolio/mas/CleaningCompany2.png"
+                      alt="image"
+                    />
                   </a>
                 </Link>
               </div>
               <div className="cont">
                 <h6>Blast From The Past</h6>
                 <span>
-                  <a href="#0">Design</a>, <a href="#0">WordPress</a>
+                  {/* <a href="#0">Design</a>, <a href="#0">WordPress</a> */}
+                  Web Design, Branding
+                </span>
+              </div>
+            </div>
+
+            <div className="col-lg-4 col-md-6 items web brand graphic">
+              <div className="item-img wow fadeInUp" data-wow-delay=".4s">
+                <Link href="/project-details/project-details-dark">
+                  <a>
+                    <img src="/img/portfolio/mas/LasLab2.png" alt="image" />
+                  </a>
+                </Link>
+              </div>
+              <div className="cont">
+                <h6>See It Yourself</h6>
+                <span>
+                  {/* <a href="#0">Design</a>, <a href="#0">WordPress</a> */}
+                  Web Design, Branding
                 </span>
               </div>
             </div>
@@ -105,30 +132,15 @@ const WorksThreeColumnWithFilter = ({ filterPosition }) => {
               <div className="item-img wow fadeInUp" data-wow-delay=".4s">
                 <Link href="/project-details/project-details-dark">
                   <a>
-                    <img src="/img/portfolio/mas/05-1.jpg" alt="image" />
-                  </a>
-                </Link>
-              </div>
-              <div className="cont">
-                <h6>See It Yourself</h6>
-                <span>
-                  <a href="#0">Design</a>, <a href="#0">WordPress</a>
-                </span>
-              </div>
-            </div>
-
-            <div className="col-lg-4 col-md-6 items graphic">
-              <div className="item-img wow fadeInUp" data-wow-delay=".4s">
-                <Link href="/project-details/project-details-dark">
-                  <a>
-                    <img src="/img/portfolio/mas/04-1.jpg" alt="image" />
+                    <img src="/img/portfolio/mas/Primo2.png" alt="image" />
                   </a>
                 </Link>
               </div>
               <div className="cont">
                 <h6>Energies of Love</h6>
                 <span>
-                  <a href="#0">Design</a>, <a href="#0">WordPress</a>
+                  {/* <a href="#0">Design</a>, <a href="#0">WordPress</a> */}
+                  Web Design
                 </span>
               </div>
             </div>
