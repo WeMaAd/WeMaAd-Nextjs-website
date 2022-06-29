@@ -18,8 +18,8 @@ const AboutHeader = () => {
                   <a>Home</a>
                 </Link>
                 <span>/</span>
-                <Link href="/about" className="active">
-                  <a>About Us</a>
+                <Link href="/about">
+                  <a className="active">About Us</a>
                 </Link>
               </div>
             </div>
