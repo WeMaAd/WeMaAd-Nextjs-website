@@ -93,7 +93,7 @@ const ShowcasesOneCenter = () => {
                       <h1>
                         {/* <Link href="/project-details2/project-details2-dark"> */}
                         <Link href={slide.url}>
-                          <a>
+                          <a target="_blank">
                             <div className="stroke">{slide.title.first}</div>
                             <span>{slide.title.second}</span>
                           </a>
@@ -106,7 +106,7 @@ const ShowcasesOneCenter = () => {
                       <h1>
                         {/* <Link href="/project-details2/project-details2-dark"> */}
                         <Link href={slide.url}>
-                          <a>
+                          <a target="_blank">
                             <div className="stroke">{slide.title.first}</div>
                             <span>{slide.title.second}</span>
                           </a>
