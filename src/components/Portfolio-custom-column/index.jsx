@@ -82,7 +82,7 @@ const PortfolioCustomColumn = ({
               >
                 <div className="item-img">
                   <Link href={item.url}>
-                    <a className="imago wow">
+                    <a className="imago wow" target="_blank">
                       <img src={item.image} alt="image" />
                       <div className="item-img-overlay"></div>
                     </a>
