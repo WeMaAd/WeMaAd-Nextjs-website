@@ -165,7 +165,7 @@ const Navbar = ({ lr, nr, theme }) => {
             {/* Contact navbar */}
             <li className="nav-item">
               <Link href="/contact">
-                <a className="nav-link">Contact</a>
+                <a className="nav-link">Contact Us</a>
               </Link>
             </li>
           </ul>
