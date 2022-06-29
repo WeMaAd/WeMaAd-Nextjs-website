@@ -16,7 +16,7 @@ const ShowcasesOneCenter = () => {
   React.useEffect(() => {
     setTimeout(() => {
       setLoad(false);
-      removeSlashFromPagination()
+      removeSlashFromPagination();
     });
   }, []);
 

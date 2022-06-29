@@ -24,7 +24,7 @@ const ShowcasesGrid = () => {
     setTimeout(() => {
       setLoad(false);
       tooltipEffect();
-      removeSlashFromPagination()
+      removeSlashFromPagination();
     });
   }, []);
 

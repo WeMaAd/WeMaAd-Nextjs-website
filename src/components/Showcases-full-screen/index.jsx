@@ -22,7 +22,7 @@ const ShowcasesFullScreen = () => {
   React.useEffect(() => {
     setTimeout(() => {
       setLoad(false);
-      removeSlashFromPagination()
+      removeSlashFromPagination();
     }, 1000);
   }, []);
 
@@ -42,8 +42,8 @@ const ShowcasesFullScreen = () => {
               nextEl: navigationNextRef.current,
             }}
             pagination={{
-                clickable: true,
-                type: "fraction",
+              clickable: true,
+              type: "fraction",
               el: paginationRef.current,
             }}
             onBeforeInit={(swiper) => {
