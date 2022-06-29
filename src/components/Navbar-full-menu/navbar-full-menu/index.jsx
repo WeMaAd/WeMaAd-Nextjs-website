@@ -275,7 +275,7 @@ const NavbarFullMenu = ({ theme, lr }) => {
                     <div className="o-hidden">
                       <Link href="/contact">
                         <a className="link">
-                          <span className="nm">05.</span>Contact
+                          <span className="nm">05.</span>Contact Us
                         </a>
                       </Link>
                     </div>
