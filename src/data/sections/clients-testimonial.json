@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "testimonial": "I am so happy that I came across WeMaAd. The way my website looks and functions is exactly how I wanted it to be. They were professional, and patient, and produced a website that I'm very proud of. I would definitely recommend using WeMaAd for your next project.",
+    "img": "/img/clients/247.ico",
+    "name": "Humat",
+    "position": "Co-founder",
+    "company": "247 Company",
+    "location": "Saudi Arabia"
+  },
+  {
+    "id": 2,
+    "testimonial": "I found WeMaAd through a friend and was beyond pleased with their work. They made the process easy and are a great resource for businesses seeking an honest, hardworking website designer.",
+    "img": "/img/clients/Waleed Zurki.jpg",
+    "name": "Waleed Zurki",
+    "position": "Co-founder",
+    "company": "Waleed Zurki",
+    "location": "United Kingdom"
+  },
+  {
+    "id": 3,
+    "testimonial": "I was the guy who had no idea what I wanted. BAM! I got an amazing website with all the features I need without having to do a ton of research and educating myself on the details.",
+    "img": "/img/clients/Martin.jpg",
+    "name": "Martin Alex",
+    "position": "CEO",
+    "company": "The cleaning company",
+    "location": "Egypt"
+  },
+  {
+    "id": 4,
+    "testimonial": "As a non-profit organization, WeMaAd really saved our time, money, and efforts. They are very professional, understandable, and time-wise developers. This special team can take us to throw the whole steps to create a stunning website for our organization. I definitely will introduce this company to my colleagues and friends.",
+    "img": "/img/clients/Choul Yat.jpg",
+    "name": "Humat",
+    "position": "Adivsory Board Member",
+    "company": "Mother Care Organization",
+    "location": "South Sudan"
+  },
+  {
+    "id": 5,
+    "testimonial": "WeMaAd is the best in the business. They have a strong sense of aesthetics and design, which combined with their expertise in web development makes them a dream to work with. I'm super picky with how my business website looks, and they were very responsive to all my requests. The result is an amazing website that can rival the leading companies in the industry.",
+    "img": "/img/clients/avatar placeholder.jpg",
+    "name": "Dr.Anwar Al Subari",
+    "position": "Founder & General Manager",
+    "company": "Las Lab Labrotories",
+    "location": "Egypt"
+  }
+]
