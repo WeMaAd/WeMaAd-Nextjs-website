@@ -5,6 +5,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import ModalVideo from "react-modal-video";
 import "react-modal-video/css/modal-video.css";
+import clientsTestimonialData from "../../data/sections/clients-testimonial.json";
 
 const VideoWithTestimonials = () => {
   const [isOpen, setOpen] = React.useState(false);
@@ -23,7 +24,8 @@ const VideoWithTestimonials = () => {
     <section className="block-sec">
       <div
         className="background bg-img section-padding pb-0"
-        style={{ backgroundImage: `url(/img/slid/1-1.jpg)` }}
+        // style={{ backgroundImage: `url(/img/slid/1-1.jpg)` }}
+        style={{ backgroundImage: `url(/img/slid/aboutUs.png)` }}
         data-overlay-dark="8"
       >
         <div className="container">
@@ -78,78 +80,32 @@ const VideoWithTestimonials = () => {
                   className="slic-item wow fadeInUp"
                   data-wow-delay=".5s"
                 >
-                  <div className="item">
-                    <p>
-                      Nulla metus metus ullamcorper vel tincidunt sed euismod
-                      nibh volutpat velit class aptent taciti sociosqu ad
-                      litora.
-                    </p>
-                    <div className="info">
-                      <div className="img">
-                        <div className="img-box">
-                          <img src="/img/clients/1-1.jpg" alt="" />
+                  {clientsTestimonialData.map((item) => (
+                    <>
+                      <div className="item">
+                        <p>{item.testimonial}</p>
+                        <div className="info">
+                          <div className="img">
+                            <div className="img-box">
+                              <img src={item.img} alt="" />
+                            </div>
+                          </div>
+                          <div className="cont">
+                            <div className="author">
+                              <h6 className="author-name custom-font">
+                                {item.name}
+                              </h6>
+                              <span className="author-details">
+                                {item.position}, {item.company}
+                                <br />
+                                {item.location}
+                              </span>
+                            </div>
+                          </div>
                         </div>
                       </div>
-                      <div className="cont">
-                        <div className="author">
-                          <h6 className="author-name custom-font">
-                            Alex Regelman
-                          </h6>
-                          <span className="author-details">
-                            Co-founder, Colabrio
-                          </span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="item">
-                    <p>
-                      Nulla metus metus ullamcorper vel tincidunt sed euismod
-                      nibh volutpat velit class aptent taciti sociosqu ad
-                      litora.
-                    </p>
-                    <div className="info">
-                      <div className="img">
-                        <div className="img-box">
-                          <img src="/img/clients/2-1.jpg" alt="" />
-                        </div>
-                      </div>
-                      <div className="cont">
-                        <div className="author">
-                          <h6 className="author-name custom-font">
-                            Alex Regelman
-                          </h6>
-                          <span className="author-details">
-                            Co-founder, Colabrio
-                          </span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="item">
-                    <p>
-                      Nulla metus metus ullamcorper vel tincidunt sed euismod
-                      nibh volutpat velit class aptent taciti sociosqu ad
-                      litora.
-                    </p>
-                    <div className="info">
-                      <div className="img">
-                        <div className="img-box">
-                          <img src="/img/clients/3-1.jpg" alt="" />
-                        </div>
-                      </div>
-                      <div className="cont">
-                        <div className="author">
-                          <h6 className="author-name custom-font">
-                            Alex Regelman
-                          </h6>
-                          <span className="author-details">
-                            Co-founder, Colabrio
-                          </span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+                    </>
+                  ))}
                 </Slider>
               </div>
             </div>
