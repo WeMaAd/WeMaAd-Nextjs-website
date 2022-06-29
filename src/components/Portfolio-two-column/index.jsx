@@ -10,7 +10,7 @@ const PortfolioTwoColumn = () => {
     if (pageLoaded) {
       setTimeout(() => {
         initIsotope();
-      }, 1000)
+      }, 1000);
     }
   }, [pageLoaded]);
   return (
