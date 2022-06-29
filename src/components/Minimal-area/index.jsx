@@ -37,8 +37,11 @@ const MinimalArea = () => {
 
               <Split>
                 <p className="wow txt words chars splitting" data-splitting>
-                  Our creative Ad agency is ranked among the finest in the US.
-                  We cultivate smart ideas for start-ups and seasoned players.
+                  {/* Our creative agency is a team of professionals who create
+                  high-quality services. We love to create something new and
+                  beautiful.  */}
+                  We create brands that dazzle, products that perform, and
+                  experiences that elevate you.
                 </p>
               </Split>
               <ul className="feat">
@@ -47,7 +50,9 @@ const MinimalArea = () => {
                     <span>1</span> Our Mission
                   </h6>
                   <p>
-                    luctus massa ipsum at tempus eleifend congue lectus bibendum
+                    To provide complete digital solutions to our clients. App
+                    development, web design, Digital Marketing, Branding, and
+                    fully functional one-page designs.
                   </p>
                 </li>
                 <li className="wow fadeInUp" data-wow-delay=".4s">
@@ -55,7 +60,8 @@ const MinimalArea = () => {
                     <span>2</span> Our Goals
                   </h6>
                   <p>
-                    luctus massa ipsum at tempus eleifend congue lectus bibendum
+                    To help make your business stands out. To make your brand
+                    recognized by the right people with the right message.
                   </p>
                 </li>
                 <li className="wow fadeInUp" data-wow-delay=".6s">
@@ -63,7 +69,11 @@ const MinimalArea = () => {
                     <span>3</span> Why Us?
                   </h6>
                   <p>
-                    luctus massa ipsum at tempus eleifend congue lectus bibendum
+                    You are overwhelmed with the opportunities in digital
+                    marketing and you want to be the best. You want the most
+                    proven digital marketing services you can trust in one
+                    convenient place, with quick delivery, and affordable
+                    pricing.
                   </p>
                 </li>
               </ul>
