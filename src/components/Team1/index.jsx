@@ -86,7 +86,12 @@ class Team1 extends React.Component {
                     </div>
                     <div className="info">
                       <h5>{item.name}</h5>
-                      <span>{item.title}</span>
+                      <span
+                        className="text-truncate"
+                        style={{ maxWidth: "195px" }}
+                      >
+                        {item.title}
+                      </span>
                       <div className="social">
                         <a href={item.socialUrl1}>
                           <i className={`fab ${item.socialIcon1}`}></i>
