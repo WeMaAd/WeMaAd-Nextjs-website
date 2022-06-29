@@ -5,9 +5,9 @@ import teamSkillsProgress from "../../common/teamSkillsProgress";
 
 const TeamWithSkills = () => {
   React.useEffect(() => {
-    tooltipEffect()
-    teamSkillsProgress()
-  }, [])
+    tooltipEffect();
+    teamSkillsProgress();
+  }, []);
   return (
     <div className="team-crv section-padding">
       <div className="container">
@@ -24,8 +24,8 @@ const TeamWithSkills = () => {
                 We help to create visual strategies.
               </h3>
               <p>
-                We are AVO. We create award-winning websites, remarkable brands
-                and cutting-edge apps.Nullam imperdie.
+                We are WeMaAd. We create award-winning websites, remarkable
+                brands and cutting-edge apps.Nullam imperdie.
               </p>
               <div className="skills-box mt-40">
                 <div className="skill-item">
@@ -91,4 +91,4 @@ const TeamWithSkills = () => {
   );
 };
 
-export default TeamWithSkills
+export default TeamWithSkills;

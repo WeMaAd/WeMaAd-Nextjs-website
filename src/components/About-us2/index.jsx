@@ -44,8 +44,8 @@ const AboutUs2 = ({ skillsTheme }) => {
                 </h3>
               </Split>
               <p className="wow fadeInUp" data-wow-delay=".4s">
-                We are AVO. We create award-winning websites, remarkable brands
-                and cutting-edge apps.Nullam imperdiet, sem at fringilla
+                We are WeMaAd. We create award-winning websites, remarkable
+                brands and cutting-edge apps.Nullam imperdiet, sem at fringilla
                 lobortis, sem nibh fringilla nibh, id gravida mi purus sit amet
                 erat. Ut dictum nisi masvitp.
               </p>
