@@ -3,48 +3,112 @@
     "id": 1,
     "image": "/img/team/7-1.jpg",
     "name": "Abdullah Sadaqa",
-    "title": "CEO & Founder"
+    "title": "CEO & Founder",
+    "socialIcon1": "fa-facebook-f",
+    "socialUrl1": "https://www.facebook.com",
+    "socialIcon2": "fa-github",
+    "socialUrl2": "https://www.github.com",
+    "socialIcon3": "fa-linkedin",
+    "socialUrl3": "https://www.linkedin.com",
+    "socialIcon4": "fa-instagram",
+    "socialUrl4": "https://www.instagram.com"
   },
   {
     "id": 2,
     "image": "/img/team/02.jpg",
     "name": "Akram Al-Zendani",
-    "title": "Development Manager"
+    "title": "Development Manager",
+    "socialIcon1": "fa-facebook-f",
+    "socialUrl1": "https://www.facebook.com",
+    "socialIcon2": "fa-github",
+    "socialUrl2": "https://www.github.com",
+    "socialIcon3": "fa-linkedin",
+    "socialUrl3": "https://www.linkedin.com",
+    "socialIcon4": "fa-instagram",
+    "socialUrl4": "https://www.instagram.com"
   },
   {
     "id": 3,
     "image": "/img/team/03.jpg",
     "name": "Ehab Salah",
-    "title": "Desiging Manger"
+    "title": "Desiging Manger",
+    "socialIcon1": "fa-facebook-f",
+    "socialUrl1": "https://www.facebook.com",
+    "socialIcon2": "fa-twitter",
+    "socialUrl2": "https://twitter.com",
+    "socialIcon3": "fa-linkedin",
+    "socialUrl3": "https://www.linkedin.com",
+    "socialIcon4": "fa-instagram",
+    "socialUrl4": "https://www.instagram.com"
   },
   {
     "id": 4,
     "image": "/img/team/02.jpg",
     "name": "Amal Hafiz",
-    "title": "MENA Marketing Manager"
+    "title": "MENA Marketing Manager",
+    "socialIcon1": "fa-facebook-f",
+    "socialUrl1": "https://www.facebook.com",
+    "socialIcon2": "fa-twitter",
+    "socialUrl2": "https://twitter.com",
+    "socialIcon3": "fa-linkedin",
+    "socialUrl3": "https://www.linkedin.com",
+    "socialIcon4": "fa-instagram",
+    "socialUrl4": "https://www.instagram.com"
   },
   {
     "id": 5,
     "image": "/img/team/5.jpg",
     "name": "Alex Beaman",
-    "title": "Developemnt Consultant"
+    "title": "Developemnt Consultant",
+    "socialIcon1": "fa-facebook-f",
+    "socialUrl1": "https://www.facebook.com",
+    "socialIcon2": "fa-github",
+    "socialUrl2": "https://www.github.com",
+    "socialIcon3": "fa-linkedin",
+    "socialUrl3": "https://www.linkedin.com",
+    "socialIcon4": "fa-instagram",
+    "socialUrl4": "https://www.instagram.com"
   },
   {
     "id": 6,
     "image": "/img/team/6.jpg",
     "name": "Mateo Morris",
-    "title": "Developemnt Consultant"
+    "title": "Developemnt Consultant",
+    "socialIcon1": "fa-facebook-f",
+    "socialUrl1": "https://www.facebook.com",
+    "socialIcon2": "fa-github",
+    "socialUrl2": "https://www.github.com",
+    "socialIcon3": "fa-linkedin",
+    "socialUrl3": "https://www.linkedin.com",
+    "socialIcon4": "fa-instagram",
+    "socialUrl4": "https://www.instagram.com"
   },
   {
     "id": 7,
     "image": "/img/team/6.jpg",
     "name": "Saadiq DuCloux",
-    "title": "North America Marketing Manager"
+    "title": "North America Marketing Manager",
+    "socialIcon1": "fa-facebook-f",
+    "socialUrl1": "https://www.facebook.com",
+    "socialIcon2": "fa-twitter",
+    "socialUrl2": "https://twitter.com",
+    "socialIcon3": "fa-linkedin",
+    "socialUrl3": "https://www.linkedin.com",
+    "socialIcon4": "fa-instagram",
+    "socialUrl4": "https://www.instagram.com"
   },
   {
     "id": 8,
     "image": "/img/team/6.jpg",
     "name": "Pamela Groder",
-    "title": "EU Marketing Manager"
+    "title": "EU Marketing Manager",
+    "socialIcon1": "fa-facebook-f",
+    "socialUrl1": "https://www.facebook.com",
+    "socialIcon2": "fa-twitter",
+    "socialUrl2": "https://twitter.com",
+    "socialIcon3": "fa-linkedin",
+    "socialUrl3": "https://www.linkedin.com",
+    "socialIcon4": "fa-instagram",
+    "socialUrl4": "https://www.instagram.com"
   }
 ]
