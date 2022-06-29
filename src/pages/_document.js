@@ -15,14 +15,15 @@ class MyDocument extends Document {
           <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
           <meta
             name="keywords"
-            content="HTML5 Template Avo onepage themeforest"
+            content="web design, web development, web application, web design company, website portfolio, business website, web developer full stack, developer website, web application development, web software design, web app development, create your website, web software development, stack dev, website and app developer, full stack dev, branding, Marketing, Social Media Marketing, SEO Optimization, Ecommerce, Digital Marketing"
           />
           <meta
             name="description"
-            content="Avo - Onepage Multi-Purpose HTML5 Template"
+            content="We are a leading Web solution agency that specializes in creating and maintaining high quality websites, web applications, branding, marketing, and other services. 
+      We have a team of experienced web developers and designers who are well versed in the latest web technologies."
           />
           <meta name="author" content="" />
-          <link rel="shortcut icon" href="/img/favicon.ico" />
+          {/* <link rel="shortcut icon" href="/img/atom-logo-light.svg" /> */}
           {/* Google Fonts */}
           <link
             href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap"
