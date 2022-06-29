@@ -46,7 +46,7 @@ const WorksThreeColumnWithFilter = ({ filterPosition }) => {
                 </Link>
               </div>
               <div className="cont">
-                <h6>Creativity Demand</h6>
+                <h6>247 Company</h6>
                 <span>
                   {/* <a href="#0">Design</a>, <a href="#0">WordPress</a> */}
                   Web Design, Branding
@@ -66,7 +66,7 @@ const WorksThreeColumnWithFilter = ({ filterPosition }) => {
                 </Link>
               </div>
               <div className="cont">
-                <h6>Through The Breaking</h6>
+                <h6>Birth Guardians Egypt</h6>
                 <span>
                   {/* <a href="#0">Design</a>, <a href="#0">WordPress</a> */}
                   Web Design
@@ -83,7 +83,7 @@ const WorksThreeColumnWithFilter = ({ filterPosition }) => {
                 </Link>
               </div>
               <div className="cont">
-                <h6>Create With Creatives</h6>
+                <h6>Cairo Codes</h6>
                 <span>
                   {/* <a href="#0">Design</a>, <a href="#0">WordPress</a> */}
                   Web Design
@@ -103,7 +103,7 @@ const WorksThreeColumnWithFilter = ({ filterPosition }) => {
                 </Link>
               </div>
               <div className="cont">
-                <h6>Blast From The Past</h6>
+                <h6>The Cleaning Company</h6>
                 <span>
                   {/* <a href="#0">Design</a>, <a href="#0">WordPress</a> */}
                   Web Design, Branding
@@ -120,7 +120,7 @@ const WorksThreeColumnWithFilter = ({ filterPosition }) => {
                 </Link>
               </div>
               <div className="cont">
-                <h6>See It Yourself</h6>
+                <h6>LasLab labratories</h6>
                 <span>
                   {/* <a href="#0">Design</a>, <a href="#0">WordPress</a> */}
                   Web Design, Branding
@@ -137,7 +137,7 @@ const WorksThreeColumnWithFilter = ({ filterPosition }) => {
                 </Link>
               </div>
               <div className="cont">
-                <h6>Energies of Love</h6>
+                <h6>Primo.so</h6>
                 <span>
                   {/* <a href="#0">Design</a>, <a href="#0">WordPress</a> */}
                   Web Design
