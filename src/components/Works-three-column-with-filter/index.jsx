@@ -41,7 +41,7 @@ const WorksThreeColumnWithFilter = ({ filterPosition }) => {
               <div className="item-img wow fadeInUp" data-wow-delay=".4s">
                 {/* <Link href="/project-details/project-details-dark"> */}
                 <Link href="https://24events.sa/">
-                  <a>
+                  <a target="_blank">
                     <img src="/img/portfolio/mas/247Company2.png" alt="image" />
                   </a>
                 </Link>
@@ -59,7 +59,7 @@ const WorksThreeColumnWithFilter = ({ filterPosition }) => {
               <div className="item-img wow fadeInUp" data-wow-delay=".4s">
                 {/* <Link href="/project-details/project-details-dark"> */}
                 <Link href="https://birthguardians-eg.org/">
-                  <a>
+                  <a target="_blank">
                     <img
                       src="/img/portfolio/mas/BirthGuardiansEgypt2.png"
                       alt="image"
@@ -80,7 +80,7 @@ const WorksThreeColumnWithFilter = ({ filterPosition }) => {
               <div className="item-img wow fadeInUp" data-wow-delay=".4s">
                 {/* <Link href="/project-details/project-details-dark"> */}
                 <Link href="https://cairo-codes.org/">
-                  <a>
+                  <a target="_blank">
                     <img src="/img/portfolio/mas/CairoCodes2.png" alt="image" />
                   </a>
                 </Link>
@@ -98,7 +98,7 @@ const WorksThreeColumnWithFilter = ({ filterPosition }) => {
               <div className="item-img wow fadeInUp" data-wow-delay=".4s">
                 {/* <Link href="/project-details/project-details-dark"> */}
                 <Link href="https://cleaningweb.vercel.app/">
-                  <a>
+                  <a target="_blank">
                     <img
                       src="/img/portfolio/mas/CleaningCompany2.png"
                       alt="image"
@@ -119,7 +119,7 @@ const WorksThreeColumnWithFilter = ({ filterPosition }) => {
               <div className="item-img wow fadeInUp" data-wow-delay=".4s">
                 {/* <Link href="/project-details/project-details-dark"> */}
                 <Link href="https://www.laslab.net/">
-                  <a>
+                  <a target="_blank">
                     <img src="/img/portfolio/mas/LasLab2.png" alt="image" />
                   </a>
                 </Link>
@@ -137,7 +137,7 @@ const WorksThreeColumnWithFilter = ({ filterPosition }) => {
               <div className="item-img wow fadeInUp" data-wow-delay=".4s">
                 {/* <Link href="/project-details/project-details-dark"> */}
                 <Link href="https://primo.so/">
-                  <a>
+                  <a target="_blank">
                     <img src="/img/portfolio/mas/Primo2.png" alt="image" />
                   </a>
                 </Link>
