@@ -23,7 +23,7 @@ class MyDocument extends Document {
       We have a team of experienced web developers and designers who are well versed in the latest web technologies."
           />
           <meta name="author" content="" />
-          {/* <link rel="shortcut icon" href="/img/atom-logo-light.svg" /> */}
+          <link rel="shortcut icon" href="/img/atom-logo-light.svg" />
           {/* Google Fonts */}
           <link
             href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap"
