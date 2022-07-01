@@ -82,7 +82,7 @@ const VideoWithTestimonials = () => {
                 >
                   {clientsTestimonialData.map((item) => (
                     <>
-                      <div className="item">
+                      <div className="item" key={item.id}>
                         <p>{item.testimonial}</p>
                         <div className="info">
                           <div className="img">
