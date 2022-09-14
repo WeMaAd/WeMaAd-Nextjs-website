@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "image": "/img/team/7-1.jpg",
+    "image": "/img/team/7-1_443x414.jpg",
     "name": "Abdullah Sadaqa",
     "title": "CEO & Founder",
     "socialIcon1": "fa-facebook-f",
@@ -15,7 +15,7 @@
   },
   {
     "id": 2,
-    "image": "/img/team/02.jpg",
+    "image": "/img/team/image team placeholder.png",
     "name": "Akram Al-Zendani",
     "title": "Development Manager",
     "socialIcon1": "fa-facebook-f",
@@ -29,7 +29,7 @@
   },
   {
     "id": 3,
-    "image": "/img/team/03.jpg",
+    "image": "/img/team/image team placeholder.png",
     "name": "Ehab Salah",
     "title": "Desiging Manger",
     "socialIcon1": "fa-facebook-f",
@@ -43,7 +43,7 @@
   },
   {
     "id": 4,
-    "image": "/img/team/02.jpg",
+    "image": "/img/team/image team placeholder.png",
     "name": "Amal Hafiz",
     "title": "MENA Marketing Manager",
     "socialIcon1": "fa-facebook-f",
@@ -57,7 +57,7 @@
   },
   {
     "id": 5,
-    "image": "/img/team/5.jpg",
+    "image": "/img/team/image team placeholder.png",
     "name": "Alex Beaman",
     "title": "Developemnt Consultant",
     "socialIcon1": "fa-facebook-f",
@@ -71,7 +71,7 @@
   },
   {
     "id": 6,
-    "image": "/img/team/6.jpg",
+    "image": "/img/team/image team placeholder.png",
     "name": "Mateo Morris",
     "title": "Developemnt Consultant",
     "socialIcon1": "fa-facebook-f",
@@ -85,7 +85,7 @@
   },
   {
     "id": 7,
-    "image": "/img/team/6.jpg",
+    "image": "/img/team/image team placeholder.png",
     "name": "Saadiq DuCloux",
     "title": "North America Marketing Manager",
     "socialIcon1": "fa-facebook-f",
@@ -99,7 +99,7 @@
   },
   {
     "id": 8,
-    "image": "/img/team/6.jpg",
+    "image": "/img/team/image team placeholder.png",
     "name": "Pamela Groder",
     "title": "EU Marketing Manager",
     "socialIcon1": "fa-facebook-f",
