@@ -95,7 +95,8 @@ const NumbersWithVideo = () => {
                           channel="vimeo"
                           autoplay
                           isOpen={isOpen}
-                          videoId="127203262"
+                          // videoId="127203262"
+                          videoId="749750726"
                           onClose={() => setOpen(false)}
                         />
                       )}
@@ -105,7 +106,8 @@ const NumbersWithVideo = () => {
                           setOpen(true);
                         }}
                         className="vid"
-                        href="https://vimeo.com/127203262"
+                        // href="https://vimeo.com/127203262"
+                        href="https://vimeo.com/749750726"
                       >
                         <div className="vid-butn">
                           <span className="icon">
