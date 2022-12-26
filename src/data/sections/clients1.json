@@ -43,10 +43,10 @@
   },
   {
     "id": 7,
-    "lightImage": "/img/atom-logo-light.svg",
-    "darkImage": "/img/atom-logo-dark.svg",
-    "url": "https://wemaad.net/",
-    "name": "Wemaad"
+    "lightImage": "/img/clients/brands/dark/js-logo.png",
+    "darkImage": "/img/clients/brands/dark/js-logo.png",
+    "url": "https://wemaad.com/stores/jscouture",
+    "name": "jscouture store"
   },
   {
     "id": 8,
