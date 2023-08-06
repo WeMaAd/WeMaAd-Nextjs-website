@@ -97,20 +97,17 @@ const WorksThreeColumnWithFilter = ({ filterPosition }) => {
             <div className="col-lg-4 col-md-6 items brand graphic">
               <div className="item-img wow fadeInUp" data-wow-delay=".4s">
                 {/* <Link href="/project-details/project-details-dark"> */}
-                <Link href="https://cleaningweb.vercel.app/">
+                <Link href="https://sitrstore.com">
                   <a target="_blank">
-                    <img
-                      src="/img/portfolio/mas/CleaningCompany2.png"
-                      alt="image"
-                    />
+                    <img src="/img/portfolio/mas/sitrstore.jpg" alt="image" />
                   </a>
                 </Link>
               </div>
               <div className="cont">
-                <h6>The Cleaning Company</h6>
+                <h6>Sitr Garments Store</h6>
                 <span>
                   {/* <a href="#0">Design</a>, <a href="#0">WordPress</a> */}
-                  Web Design, Branding
+                  e-commerce, Branding
                 </span>
               </div>
             </div>
@@ -118,14 +115,14 @@ const WorksThreeColumnWithFilter = ({ filterPosition }) => {
             <div className="col-lg-4 col-md-6 items web brand graphic">
               <div className="item-img wow fadeInUp" data-wow-delay=".4s">
                 {/* <Link href="/project-details/project-details-dark"> */}
-                <Link href="https://www.laslab.net/">
+                <Link href="https://lassud.com/">
                   <a target="_blank">
-                    <img src="/img/portfolio/mas/LasLab2.png" alt="image" />
+                    <img src="/img/portfolio/mas/lassud.jpg" alt="image" />
                   </a>
                 </Link>
               </div>
               <div className="cont">
-                <h6>LasLab labratories</h6>
+                <h6>Las For Urban Development</h6>
                 <span>
                   {/* <a href="#0">Design</a>, <a href="#0">WordPress</a> */}
                   Web Design, Branding
