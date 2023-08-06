@@ -36,23 +36,23 @@
   },
   {
     "id": 6,
-    "lightImage": "/img/clients/brands/light/LasLabLogo.png",
-    "darkImage": "/img/clients/brands/dark/LasLabLogo.png",
-    "url": "https://www.laslab.net/",
-    "name": "Laslab"
+    "lightImage": "/img/clients/brands/light/las-png (3).png",
+    "darkImage": "/img/clients/brands/dark/las-png (3).png",
+    "url": "https://lassud.com/",
+    "name": "Las Urban Development"
   },
   {
     "id": 7,
     "lightImage": "/img/clients/brands/dark/js-logo.png",
     "darkImage": "/img/clients/brands/dark/js-logo.png",
-    "url": "https://wemaad.com/stores/jscouture",
-    "name": "jscouture store"
+    "url": "https://sitrstore.com",
+    "name": "Sitr Garments Store"
   },
   {
     "id": 8,
-    "lightImage": "/img/atom-logo-light.svg",
-    "darkImage": "/img/atom-logo-dark.svg",
-    "url": "https://wemaad.net/",
-    "name": "Wemaad"
+    "lightImage": "/img/clients/brands/dark/telecom.png",
+    "darkImage": "/img/clients/brands/dark/telecom.png",
+    "url": "https://wemaad.com/websites/blt/",
+    "name": "Telecom Company"
   }
 ]

@@ -22,30 +22,37 @@
   },
   {
     "id": 4,
-    "title": { "first": "Cleaning", "second": "Company" },
-    "image": "/img/portfolio/full/CleaningCompany2.png",
-    "sub": "Web Design",
-    "url": "https://cleaningweb.vercel.app/"
+    "title": { "first": "Sitr Garments", "second": "Store" },
+    "image": "/img/portfolio/full/sitrstore.jpg",
+    "sub": "eCommerce Store",
+    "url": "https://sitrstore.com"
   },
   {
     "id": 5,
-    "title": { "first": "Las", "second": "Lab" },
-    "image": "/img/portfolio/full/LasLab2.png",
+    "title": { "first": "Las Urban", "second": "Development" },
+    "image": "/img/portfolio/full/lassud.jpg",
     "sub": "Web Design",
-    "url": "https://www.laslab.net/"
+    "url": "https://lassud.com/"
   },
   {
     "id": 5,
     "title": { "first": "Primo", "second": "App" },
-    "image": "/img/portfolio/full/Primo2.png",
+    "image": "/img/portfolio/full/primo_new.jpg",
     "sub": "Web Design",
     "url": "https://primo.so/"
   },
   {
     "id": 5,
-    "title": { "first": "jscouture", "second": "Store" },
-    "image": "/img/portfolio/full/jscouturestore.PNG",
+    "title": { "first": "WeMaAd", "second": "Store" },
+    "image": "/img/portfolio/full/wemaad_store.jpg",
     "sub": "eCommerce Store",
-    "url": "https://wemaad.com/stores/jscouture"
+    "url": "https://store.wemaad.com/"
+  },
+  {
+    "id": 6,
+    "title": { "first": "Telecom", "second": "Company" },
+    "image": "/img/portfolio/full/telecom.jpg",
+    "sub": "Web Design",
+    "url": "https://wemaad.com/websites/blt/"
   }
 ]

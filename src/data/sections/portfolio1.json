@@ -25,16 +25,16 @@
   },
   {
     "id": 4,
-    "image": "/img/portfolio/mas/CleaningCompany2.png",
-    "title": "The Cleaning Company",
+    "image": "/img/portfolio/mas/sitrstore.jpg",
+    "title": "Sitr Garments Store",
     "tags": ["Web Design", "Branding"],
     "filterCategory": ["brand"],
-    "url": "https://cleaningweb.vercel.app/"
+    "url": "https://sitrstore.com"
   },
   {
     "id": 5,
-    "image": "/img/portfolio/mas/LasLab2.png",
-    "title": "LasLab labratories",
+    "image": "/img/portfolio/mas/lassud.jpg",
+    "title": "Las Urban Development",
     "tags": ["Web Design", "Branding"],
     "filterCategory": ["graphic"],
     "url": "https://www.laslab.net/"
