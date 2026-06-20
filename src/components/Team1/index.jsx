@@ -36,7 +36,7 @@ class Team1 extends React.Component {
             <div className="col-lg-4 valign">
               <div className="full-width">
                 <div className="sec-head custom-font mb-0">
-                  <h6>Meet the Team</h6>
+                  <h6>Core Team</h6>
                   <h3>Our Team.</h3>
                 </div>
                 {needsSlider && this.renderArrows()}
