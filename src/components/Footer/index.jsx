@@ -1,6 +1,8 @@
 /* eslint-disable @next/next/no-img-element */
 import React from "react";
 import appData from "../../data/app.json";
+
+const Footer = () => {
   return (
     <footer className="footer-half sub-bg section-padding pb-0">
       <div className="container">
