@@ -26,5 +26,19 @@
     "darkImage": "/img/clients/brands/dark/js-logo.png",
     "url": "https://sitrstore.com",
     "name": "Sitr Garments Store"
+  },
+  {
+    "id": 5,
+    "lightImage": "/img/clients/brands/light/high-five-logo.png",
+    "darkImage": "/img/clients/brands/dark/high-five-logo.png",
+    "url": "https://www.high-five.ai/",
+    "name": "High-Five"
+  },
+  {
+    "id": 6,
+    "lightImage": "/img/clients/brands/light/remotecoders-logo.png",
+    "darkImage": "/img/clients/brands/dark/remotecoders-logo.png",
+    "url": "https://remotecoders.org/",
+    "name": "Remotecoders"
   }
 ]
