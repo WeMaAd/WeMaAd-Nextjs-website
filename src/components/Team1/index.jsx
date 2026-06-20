@@ -28,6 +28,7 @@ class Team1 extends React.Component {
     );
   };
   render() {
+    const needsSlider = team1Data.length > 4;
     return (
       <section className="team section-padding">
         <div className="container">
@@ -38,7 +39,7 @@ class Team1 extends React.Component {
                   <h6>Employees</h6>
                   <h3>Our Team.</h3>
                 </div>
-                {this.renderArrows()}
+                {needsSlider && this.renderArrows()}
               </div>
             </div>
             <div className="col-lg-8">
@@ -47,9 +48,9 @@ class Team1 extends React.Component {
                 {...{
                   ref: (c) => (this.slider = c),
                   dots: false,
-                  infinite: true,
-                  arrows: true,
-                  autoplay: true,
+                  infinite: needsSlider,
+                  arrows: false,
+                  autoplay: needsSlider,
                   slidesToScroll: 1,
                   slidesToShow: 4,
                   width: 250,
