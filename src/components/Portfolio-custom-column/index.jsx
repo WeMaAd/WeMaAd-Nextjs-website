@@ -26,40 +26,20 @@ const PortfolioCustomColumn = ({
         <div className="container">
           <div className="sec-head custom-font">
             <h6 className="wow fadeIn" data-wow-delay=".5s">
-              Portfolio
+              End-to-End Projects
             </h6>
             <Split>
               <h3 className="wow words chars splitting" data-splitting>
-                Our Works.
+                Products We Built.
               </h3>
             </Split>
-            <span className="tbg text-right">Portfolio</span>
+            <span className="tbg text-right">Works</span>
           </div>
         </div>
       )}
 
       <div className={`${column === 3 ? "container-fluid" : "container"}`}>
         <div className="row">
-          {!hideFilter && (
-            <div
-              className={`filtering ${
-                filterPosition === "center"
-                  ? "text-center"
-                  : filterPosition === "left"
-                  ? "text-left"
-                  : "text-right"
-              } col-12`}
-            >
-              <div className="filter">
-                <span data-filter="*" className="active">
-                  All
-                </span>
-                <span data-filter=".brand">Branding</span>
-                <span data-filter=".web">web App</span>
-                <span data-filter=".graphic">Web Design</span>
-              </div>
-            </div>
-          )}
 
           <div className="gallery full-width">
             {portfolio1Data.map((item, index) => (

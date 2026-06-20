@@ -68,13 +68,13 @@ const HowWeWorkDetail = () => {
               <h3 className="custom-font mt-20">You need senior engineers.</h3>
               <p className="mt-20">
                 For US and EU companies that want senior talent without the
-                hiring overhead. Our engineers work full-time with your team and
+                hiring overhead. Our engineers work embedded with your team and
                 your clients, in your timezone — while we handle all HR,
                 contracts, and management.
               </p>
               <ul className="mt-30 rest" style={{ listStyle: "none", padding: 0 }}>
                 <li className="mb-10">✓ &nbsp;Senior-only, pre-vetted engineers</li>
-                <li className="mb-10">✓ &nbsp;Full-time, your timezone</li>
+                <li className="mb-10">✓ &nbsp;Dedicated, your timezone</li>
                 <li className="mb-10">✓ &nbsp;Works directly with your clients</li>
                 <li className="mb-10">✓ &nbsp;HR, contracts & management on us</li>
               </ul>
