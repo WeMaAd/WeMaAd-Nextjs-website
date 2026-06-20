@@ -2,25 +2,25 @@
   {
     "id": 1,
     "title": {
-      "first": "Unique",
-      "second": "brand Stories"
+      "first": "Senior Rails",
+      "second": "+ Next.js Engineers"
     },
-    "content": "If you need to redesign your new project, new visual strategy, ux structure or you do have some cool ideas for collaboration.",
+    "content": "Embedded in your team or building your product from scratch — senior engineering from Cairo for US and EU teams.",
     "image": "/img/slid/01-1.jpg"
   },
   {
     "id": 2,
     "title": {
-      "first": "Digital",
-      "second": "Design Awards"
+      "first": "Senior Product",
+      "second": "Engineering"
     },
-    "content": "If you need to redesign your new project, new visual strategy, ux structure or you do have some cool ideas for collaboration.",
+    "content": "For startups and scaling teams — on your timezone. We ship like full-time staff, without the full-time overhead.",
     "image": "/img/slid/03-1.jpg"
   },
   {
     "id": 3,
-    "title": "Original Solutions",
-    "content": "If you need to redesign your new project, new visual strategy, ux structure or you do have some cool ideas for collaboration.",
+    "title": "Build smarter, ship faster.",
+    "content": "Ruby on Rails · Next.js · AI/LLM Integration. Modern stack, proven results.",
     "image": "/img/slid/02-1.jpg"
   }
 ]

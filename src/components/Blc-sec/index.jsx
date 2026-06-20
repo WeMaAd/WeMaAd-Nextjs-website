@@ -20,7 +20,7 @@ const BlcSec = () => {
                   className="extra-title wow words chars splitting"
                   data-splitting
                 >
-                  We help to create strategies, design & development.
+                  Senior product engineers. Embedded in your team or building for you.
                 </h2>
               </Split>
             </div>
@@ -29,10 +29,10 @@ const BlcSec = () => {
             <div className="full-width">
               <Split>
                 <p className="wow txt words chars splitting" data-splitting>
-                  We never underestimate any parts of each project as
-                  they&apos;re all essential to meeting the ultimate goal.
-                  you&apos;ll be engaged in with our positive and enthusiastic
-                  attitude.
+                  We never treat any part of a project as secondary —
+                  engineering quality, communication, and timelines are all
+                  essential. You&apos;ll work with senior engineers who think in
+                  outcomes, not tickets.
                 </p>
               </Split>
               <Split>

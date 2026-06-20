@@ -88,10 +88,10 @@ const Footer = () => {
           </div>
           <div className="col-lg-5 offset-lg-2">
             <div className="subscribe mb-50">
-              <h6 className="custom-font stit simple-btn">Newslatter</h6>
+              <h6 className="custom-font stit simple-btn">Newsletter</h6>
               <p>
-                Sign up for subscribe out newsletter! subscribed clients to our
-                newsletter will receive a 10% discount on their first purchase
+                Subscribe to stay updated on what we&apos;re building and
+                thinking about.
               </p>
               <Formik
                 initialValues={{

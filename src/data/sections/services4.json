@@ -1,38 +1,32 @@
 [
   {
     "id": 1,
-    "title": "Digital Marketing",
-    "icon": "pe-7s-gleam",
-    "content": "We use strategic marketing tactics that have been proven to work to conquer the market and increase sales and profits for our clients and partners."
+    "title": "Embedded Engineering",
+    "icon": "pe-7s-users",
+    "content": "Senior developers embedded directly in your team. They work in your overlap hours, communicate in English, and ship like full-time staff — without the full-time overhead."
   },
   {
     "id": 2,
-    "title": "App Development",
-    "icon": "pe-7s-phone",
-    "content": "In WeMaAd we develop your application with the help of the latest technologies to ensure that your application is fast, secure and easy to use."
+    "title": "End-to-End Product Builds",
+    "icon": "pe-7s-display2",
+    "content": "From MVP to production-ready product. We own the full build — architecture, development, and delivery — so you can focus on the business."
   },
   {
     "id": 3,
-    "title": "Web Design",
-    "icon": "pe-7s-monitor",
-    "content": "We design your website to make your customers feel comfortable and satisfied with your business and the products and services you offer."
+    "title": "AI & LLM Integration",
+    "icon": "pe-7s-gleam",
+    "content": "Add intelligent features to your product without the R&D detour. We integrate LLMs and AI into existing Rails and Next.js codebases."
   },
   {
     "id": 4,
-    "title": "E-Commerce",
-    "icon": "pe-7s-cart",
-    "content": "We build your online store using a flexible, modular platform that allows you to easily add features and customize your store to your customer needs."
+    "title": "API Development",
+    "icon": "pe-7s-server",
+    "content": "Clean, documented, scalable APIs. Whether you need a new backend or to extend an existing one, we build APIs that are easy to maintain and grow."
   },
   {
     "id": 5,
-    "title": "SEO & SEM",
-    "icon": "pe-7s-graph1",
-    "content": "With our clients been able to rank on the first pages of google for over a decade we have been able to build a reputation for ourselves as design company."
-  },
-  {
-    "id": 6,
-    "title": "Branding",
-    "icon": "pe-7s-camera",
-    "content": "Creating a strong, positive perception of your company, in the customer's mind by combining such elements as logo, design, etc.."
+    "title": "SaaS Development",
+    "icon": "pe-7s-rocket",
+    "content": "Modern SaaS products built on Ruby on Rails and Next.js. Subscription billing, multi-tenancy, admin dashboards — delivered fast and built to scale."
   }
 ]
