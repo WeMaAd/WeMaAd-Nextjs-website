@@ -16,7 +16,7 @@
   {
     "id": 3,
     "title": { "first": "Primo", "second": "App" },
-    "image": "/img/portfolio/full/primo_new.jpg",
+    "image": "/img/portfolio/full/primo-banner.png",
     "sub": "Web Design",
     "url": "https://primo.build/"
   },
