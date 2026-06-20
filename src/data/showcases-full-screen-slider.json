@@ -19,5 +19,12 @@
     "image": "/img/portfolio/full/primo_new.jpg",
     "sub": "Web Design",
     "url": "https://primo.build/"
+  },
+  {
+    "id": 4,
+    "title": { "first": "Amaken", "second": "" },
+    "image": "/img/portfolio/full/amaken-banner.png",
+    "sub": "Next.js · NestJS · PostgreSQL",
+    "url": "https://amaken.life/"
   }
 ]
