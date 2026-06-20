@@ -32,7 +32,7 @@ const ContactWithMap = () => {
       "Form Origin": "From WeMaAd Website the Contact Us Page",
     };
     // fetch the values of the email field and send it to the server
-    fetch("https://usebasin.com/f/f5aeb5b551e1", {
+    fetch(process.env.NEXT_PUBLIC_FORM_ENDPOINT, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
