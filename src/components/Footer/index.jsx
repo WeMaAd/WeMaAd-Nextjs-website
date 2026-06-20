@@ -44,10 +44,6 @@ const Footer = () => {
                     <span>Email : </span>
                     <a href="mailto:hello@wemaad.net">Hello@wemaad.net</a>
                   </li>
-                  {/* <li>
-                    <span>Address : </span> A32 , Ave 15th Street, Door 211, San
-                    Franciso, USA 32490.
-                  </li> */}
                   <li>
                     <span>Phone : </span>
                     <a href="tel:+201142549787">+20 114 254 9787</a>
@@ -130,7 +126,6 @@ const Footer = () => {
         <div className="copyrights text-center">
           <p>
             © WeMaAd with ♥ in World. All Rights Reserved.
-            {/* <a href="#0">ThemesCamp</a>. */}
           </p>
         </div>
       </div>

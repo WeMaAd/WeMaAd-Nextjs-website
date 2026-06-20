@@ -7,7 +7,6 @@ const SmallFooter = () => {
         <div className="copyrights text-center mt-0">
           <p>
             © WeMaAd with ♥ in World. All Rights Reserved.
-            {/* <a href="#0">ThemesCamp</a>. */}
           </p>
         </div>
       </div>
