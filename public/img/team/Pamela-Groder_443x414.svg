@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 443 414" width="443" height="414">
+  <!-- Background -->
+  <rect width="443" height="414" fill="#f0f0f0"/>
+
+  <!-- Body / top -->
+  <ellipse cx="221" cy="480" rx="140" ry="110" fill="#1bd8eb"/>
+
+  <!-- Neck -->
+  <rect x="198" y="255" width="46" height="50" rx="10" fill="#d4a896"/>
+
+  <!-- Collar detail -->
+  <ellipse cx="221" cy="310" rx="45" ry="18" fill="#17c2d4"/>
+
+  <!-- Head -->
+  <ellipse cx="221" cy="195" rx="80" ry="88" fill="#d4a896"/>
+
+  <!-- Hair - long, feminine -->
+  <!-- Top/crown -->
+  <ellipse cx="221" cy="130" rx="80" ry="42" fill="#3d2b1f"/>
+  <!-- Left side hair -->
+  <ellipse cx="150" cy="200" rx="28" ry="75" fill="#3d2b1f"/>
+  <!-- Right side hair -->
+  <ellipse cx="292" cy="200" rx="28" ry="75" fill="#3d2b1f"/>
+  <!-- Back/bottom hair flow -->
+  <ellipse cx="221" cy="270" rx="88" ry="30" fill="#3d2b1f"/>
+
+  <!-- Re-draw face area over hair -->
+  <ellipse cx="221" cy="200" rx="68" ry="78" fill="#d4a896"/>
+
+  <!-- Eyes -->
+  <ellipse cx="192" cy="192" rx="9" ry="6" fill="#fff"/>
+  <circle cx="193" cy="192" r="5" fill="#3d2b1f"/>
+  <ellipse cx="250" cy="192" rx="9" ry="6" fill="#fff"/>
+  <circle cx="249" cy="192" r="5" fill="#3d2b1f"/>
+
+  <!-- Eyebrows - slightly arched -->
+  <path d="M182 180 Q193 173 204 180" stroke="#3d2b1f" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <path d="M240 180 Q251 173 262 180" stroke="#3d2b1f" stroke-width="3" fill="none" stroke-linecap="round"/>
+
+  <!-- Nose -->
+  <path d="M221 200 Q217 215 213 218 Q221 222 229 218 Q225 215 221 200" fill="#c49080"/>
+
+  <!-- Lips -->
+  <path d="M206 232 Q221 243 236 232" stroke="#c07070" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  <path d="M206 232 Q221 228 236 232" stroke="#c07070" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+</svg>
