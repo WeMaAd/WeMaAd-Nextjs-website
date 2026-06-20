@@ -3,53 +3,39 @@
     "id": 1,
     "darkImage": "/img/clients/brands/dark/Primo-dark-theme.svg",
     "lightImage": "/img/clients/brands/light/Primo-light-theme.svg",
-    "url": "https://primo.so/",
+    "url": "https://primo.build/",
     "name": "Primo"
   },
   {
     "id": 2,
-    "darkImage": "/img/clients/brands/dark/24EventsLogo.png",
-    "lightImage": "/img/clients/brands/light/24EventsLogo.png",
-    "url": "https://24events.sa/",
-    "name": "24events"
-  },
-  {
-    "id": 3,
     "darkImage": "/img/clients/brands/dark/BirthGuardiansLogo.png",
     "lightImage": "/img/clients/brands/light/BirthGuardiansLogo.png",
     "url": "https://birthguardians-eg.org/",
     "name": "Birth Guardians"
   },
   {
-    "id": 4,
-    "darkImage": "/img/clients/brands/dark/CairoCodesLogo.svg",
-    "lightImage": "/img/clients/brands/light/CairoCodesLogo.svg",
-    "url": "https://cairo-codes.org/",
-    "name": "Cairo Codes"
-  },
-  {
-    "id": 5,
+    "id": 3,
     "darkImage": "/img/clients/brands/dark/CleaningCompanyLogo.svg",
     "lightImage": "/img/clients/brands/light/CleaningCompanyLogo.svg",
     "url": "https://cleaningweb.vercel.app/",
     "name": "Cleaning Website"
   },
   {
-    "id": 6,
+    "id": 4,
     "darkImage": "/img/clients/brands/dark/LasLabLogo.png",
     "lightImage": "/img/clients/brands/light/LasLabLogo.png",
     "url": "https://www.laslab.net/",
     "name": "Laslab"
   },
   {
-    "id": 7,
+    "id": 5,
     "darkImage": "/img/atom-logo-dark.svg",
     "lightImage": "/img/atom-logo-light.svg",
     "url": "#",
     "name": "WeMaAd"
   },
   {
-    "id": 8,
+    "id": 6,
     "darkImage": "/img/atom-logo-dark.svg",
     "lightImage": "/img/atom-logo-light.svg",
     "url": "#",

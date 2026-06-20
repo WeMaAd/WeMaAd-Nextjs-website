@@ -1,14 +1,6 @@
 [
   {
     "id": 1,
-    "image": "/img/portfolio/mas/247Company2.png",
-    "title": "247 Company",
-    "tags": ["Web Design", "Branding"],
-    "filterCategory": ["brand"],
-    "url": "https://24events.sa/"
-  },
-  {
-    "id": 2,
     "image": "/img/portfolio/mas/BirthGuardiansEgypt2.png",
     "title": "Birth Guardians Egypt",
     "tags": ["Web Design"],
@@ -16,15 +8,7 @@
     "url": "https://birthguardians-eg.org/"
   },
   {
-    "id": 3,
-    "image": "/img/portfolio/mas/CairoCodes2.png",
-    "title": "Cairo Codes",
-    "tags": ["Web Design"],
-    "filterCategory": ["web"],
-    "url": "https://cairo-codes.org/"
-  },
-  {
-    "id": 4,
+    "id": 2,
     "image": "/img/portfolio/mas/sitrstore.jpg",
     "title": "Sitr Garments Store",
     "tags": ["Web Design", "Branding"],
@@ -32,19 +16,11 @@
     "url": "https://sitrstore.com"
   },
   {
-    "id": 5,
-    "image": "/img/portfolio/mas/lassud.jpg",
-    "title": "Las Urban Development",
-    "tags": ["Web Design", "Branding"],
-    "filterCategory": ["graphic"],
-    "url": "https://lassud.com/"
-  },
-  {
-    "id": 6,
+    "id": 3,
     "image": "/img/portfolio/mas/Primo2.png",
-    "title": "Primo.so",
+    "title": "Primo",
     "tags": ["Web Design"],
     "filterCategory": ["graphic"],
-    "url": "https://primo.so/"
+    "url": "https://primo.build/"
   }
 ]

@@ -1,58 +1,23 @@
 [
   {
     "id": 1,
-    "title": { "first": "247", "second": "Company" },
-    "image": "/img/portfolio/full/247Company2.png",
-    "sub": "Web Web Design",
-    "url": "https://24events.sa/"
-  },
-  {
-    "id": 2,
     "title": { "first": "Birth", "second": "Guardians" },
     "image": "/img/portfolio/full/BirthGuardiansEgypt2.png",
     "sub": "Web Design",
     "url": "https://birthguardians-eg.org/"
   },
   {
-    "id": 3,
-    "title": { "first": "Cairo", "second": "Codes" },
-    "image": "/img/portfolio/full/CairoCodes2.png",
-    "sub": "Web Design",
-    "url": "https://cairo-codes.org/"
-  },
-  {
-    "id": 4,
+    "id": 2,
     "title": { "first": "Sitr Garments", "second": "Store" },
     "image": "/img/portfolio/full/sitrstore.jpg",
     "sub": "eCommerce Store",
     "url": "https://sitrstore.com"
   },
   {
-    "id": 5,
-    "title": { "first": "Las Urban", "second": "Development" },
-    "image": "/img/portfolio/full/lassud.jpg",
-    "sub": "Web Design",
-    "url": "https://lassud.com/"
-  },
-  {
-    "id": 5,
+    "id": 3,
     "title": { "first": "Primo", "second": "App" },
     "image": "/img/portfolio/full/primo_new.jpg",
     "sub": "Web Design",
-    "url": "https://primo.so/"
-  },
-  {
-    "id": 5,
-    "title": { "first": "WeMaAd", "second": "Store" },
-    "image": "/img/portfolio/full/wemaad_store.jpg",
-    "sub": "eCommerce Store",
-    "url": "https://store.wemaad.com/"
-  },
-  {
-    "id": 6,
-    "title": { "first": "Telecom", "second": "Company" },
-    "image": "/img/portfolio/full/telecom.jpg",
-    "sub": "Web Design",
-    "url": "https://wemaad.com/websites/blt/"
+    "url": "https://primo.build/"
   }
 ]
