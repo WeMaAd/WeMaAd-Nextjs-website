@@ -25,7 +25,6 @@
   },
   {
     "id": 4,
-    "image": "/img/portfolio/mas/amaken.png",
     "title": "Amaken",
     "tags": ["Next.js", "NestJS", "PostgreSQL"],
     "filterCategory": ["web"],

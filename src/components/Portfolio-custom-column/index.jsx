@@ -63,7 +63,13 @@ const PortfolioCustomColumn = ({
                 <div className="item-img">
                   <Link href={item.url}>
                     <a className="imago wow" target="_blank">
-                      <img src={item.image} alt="image" />
+                      {item.image ? (
+                        <img src={item.image} alt={item.title} />
+                      ) : (
+                        <div style={{ background: "#151921", height: "300px", display: "flex", alignItems: "center", justifyContent: "center" }}>
+                          <span style={{ fontSize: "32px", fontWeight: "700", color: "#fff", fontFamily: "inherit", letterSpacing: "2px" }}>{item.title}</span>
+                        </div>
+                      )}
                       <div className="item-img-overlay"></div>
                     </a>
                   </Link>
