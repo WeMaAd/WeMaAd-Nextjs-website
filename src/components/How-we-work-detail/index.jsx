@@ -34,7 +34,7 @@ const HowWeWorkDetail = () => {
                 to users on day one.
               </p>
               <ul className="mt-30 rest" style={{ listStyle: "none", padding: 0 }}>
-                <li className="mb-10">✓ &nbsp;Ruby on Rails · Next.js · React · Node.js · Go · Python · AI/LLM</li>
+                <li className="mb-10">✓ &nbsp;Ruby on Rails · Next.js · React · Node.js · NestJS · Go · Python · PostgreSQL · AI/LLM</li>
                 <li className="mb-10">✓ &nbsp;MVP to production-ready</li>
                 <li className="mb-10">✓ &nbsp;Full code & infrastructure ownership</li>
                 <li className="mb-10">✓ &nbsp;Fixed scope or ongoing retainer</li>

@@ -22,5 +22,13 @@
     "tags": ["Web Design"],
     "filterCategory": ["graphic"],
     "url": "https://primo.build/"
+  },
+  {
+    "id": 4,
+    "image": "/img/portfolio/mas/amaken.png",
+    "title": "Amaken",
+    "tags": ["Next.js", "NestJS", "PostgreSQL"],
+    "filterCategory": ["web"],
+    "url": "https://amaken.life/"
   }
 ]
