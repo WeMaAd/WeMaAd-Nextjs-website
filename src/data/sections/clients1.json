@@ -40,5 +40,12 @@
     "darkImage": "/img/clients/brands/dark/remotecoders-logo.png",
     "url": "https://remotecoders.org/",
     "name": "Remotecoders"
+  },
+  {
+    "id": 7,
+    "lightImage": "/img/clients/brands/light/viu-logo.png",
+    "darkImage": "/img/clients/brands/dark/viu-logo.png",
+    "url": "https://www.viu.ch/",
+    "name": "Viu"
   }
 ]
