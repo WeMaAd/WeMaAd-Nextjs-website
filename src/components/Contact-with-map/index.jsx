@@ -1,6 +1,29 @@
 import React from "react";
 
 const ContactWithMap = () => {
+  const [submitted, setSubmitted] = React.useState(false);
+  const [error, setError] = React.useState(false);
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    const formData = new FormData(e.target);
+    try {
+      const res = await fetch("https://usebasin.com/f/f5aeb5b551e1", {
+        method: "POST",
+        headers: { Accept: "application/json" },
+        body: formData,
+      });
+      if (res.ok) {
+        setSubmitted(true);
+        e.target.reset();
+      } else {
+        setError(true);
+      }
+    } catch {
+      setError(true);
+    }
+  };
+
   return (
     <>
       <section className="contact section-padding">
@@ -10,64 +33,72 @@ const ContactWithMap = () => {
               <div className="form md-mb50">
                 <h4 className="extra-title mb-50">Get In Touch.</h4>
 
-                <form
-                  id="contact-form"
-                  action="https://usebasin.com/f/f5aeb5b551e1"
-                  method="POST"
-                >
-                  <div className="controls">
-                    <div className="form-group">
-                      <input
-                        id="form_name"
-                        type="text"
-                        name="name"
-                        placeholder="Name"
-                        required
-                      />
-                    </div>
-
-                    <div className="form-group">
-                      <input
-                        id="form_email"
-                        type="email"
-                        name="email"
-                        placeholder="Email"
-                        required
-                      />
-                    </div>
-
-                    <div className="form-group">
-                      <input
-                        id="form_phone"
-                        type="tel"
-                        name="phone"
-                        placeholder="Phone with country code"
-                        required
-                      />
-                    </div>
-
-                    <div className="form-group">
-                      <textarea
-                        id="form_message"
-                        name="message"
-                        placeholder="Message"
-                        rows="4"
-                        required
-                      />
-                    </div>
-
-                    <div className="form-group">
-                      <span>
-                        By submitting the form, I agree that my submitted data
-                        is being collected and stored.
-                      </span>
-                    </div>
-
-                    <button type="submit" className="btn-curve btn-lit">
-                      <span>Send Message</span>
-                    </button>
+                {submitted ? (
+                  <div className="alert alert-success" role="alert">
+                    Your message has been sent. We will get back to you soon.
                   </div>
-                </form>
+                ) : (
+                  <form id="contact-form" onSubmit={handleSubmit}>
+                    {error && (
+                      <div className="alert alert-danger" role="alert">
+                        Something went wrong. Please try again or email us
+                        directly at hello@wemaad.net
+                      </div>
+                    )}
+                    <div className="controls">
+                      <div className="form-group">
+                        <input
+                          id="form_name"
+                          type="text"
+                          name="name"
+                          placeholder="Name"
+                          required
+                        />
+                      </div>
+
+                      <div className="form-group">
+                        <input
+                          id="form_email"
+                          type="email"
+                          name="email"
+                          placeholder="Email"
+                          required
+                        />
+                      </div>
+
+                      <div className="form-group">
+                        <input
+                          id="form_phone"
+                          type="tel"
+                          name="phone"
+                          placeholder="Phone with country code"
+                          required
+                        />
+                      </div>
+
+                      <div className="form-group">
+                        <textarea
+                          id="form_message"
+                          name="message"
+                          placeholder="Message"
+                          rows="4"
+                          required
+                        />
+                      </div>
+
+                      <div className="form-group">
+                        <span>
+                          By submitting the form, I agree that my submitted data
+                          is being collected and stored.
+                        </span>
+                      </div>
+
+                      <button type="submit" className="btn-curve btn-lit">
+                        <span>Send Message</span>
+                      </button>
+                    </div>
+                  </form>
+                )}
               </div>
             </div>
             <div className="col-lg-5 offset-lg-1">

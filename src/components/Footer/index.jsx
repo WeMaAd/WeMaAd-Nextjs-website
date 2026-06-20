@@ -3,6 +3,29 @@ import React from "react";
 import appData from "../../data/app.json";
 
 const Footer = () => {
+  const [subscribed, setSubscribed] = React.useState(false);
+  const [subError, setSubError] = React.useState(false);
+
+  const handleSubscribe = async (e) => {
+    e.preventDefault();
+    const formData = new FormData(e.target);
+    try {
+      const res = await fetch("https://usebasin.com/f/f5aeb5b551e1", {
+        method: "POST",
+        headers: { Accept: "application/json" },
+        body: formData,
+      });
+      if (res.ok) {
+        setSubscribed(true);
+        e.target.reset();
+      } else {
+        setSubError(true);
+      }
+    } catch {
+      setSubError(true);
+    }
+  };
+
   return (
     <footer className="footer-half sub-bg section-padding pb-0">
       <div className="container">
@@ -63,22 +86,30 @@ const Footer = () => {
                 Subscribe to stay updated on what we&apos;re building and
                 thinking about.
               </p>
-              <form
-                action="https://usebasin.com/f/f5aeb5b551e1"
-                method="POST"
-              >
-                <div className="form-group custom-font">
-                  <input
-                    type="email"
-                    name="email"
-                    placeholder="Your Email"
-                    required
-                  />
-                  <button className="cursor-pointer" type="submit">
-                    Subscribe
-                  </button>
+              {subscribed ? (
+                <div className="alert alert-success" role="alert">
+                  Thanks! You&apos;re subscribed.
                 </div>
-              </form>
+              ) : (
+                <form onSubmit={handleSubscribe}>
+                  {subError && (
+                    <div className="alert alert-danger" role="alert">
+                      Something went wrong. Please try again.
+                    </div>
+                  )}
+                  <div className="form-group custom-font">
+                    <input
+                      type="email"
+                      name="email"
+                      placeholder="Your Email"
+                      required
+                    />
+                    <button className="cursor-pointer" type="submit">
+                      Subscribe
+                    </button>
+                  </div>
+                </form>
+              )}
             </div>
             <div className="insta">
               <h6 className="custom-font stit simple-btn">Instagram Post</h6>
