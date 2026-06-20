@@ -34,7 +34,10 @@ const Clients1 = ({ theme, subBG }) => {
                           <img src={item.darkImage} alt={item.name} />
                         )
                       ) : (
-                        <span style={{ fontSize: "18px", fontWeight: "700", color: "#fff", letterSpacing: "1px" }}>{item.name}</span>
+                        <img
+                          src={`data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='150' height='40'><text x='50%' y='50%' dominant-baseline='middle' text-anchor='middle' font-family='sans-serif' font-size='18' font-weight='700' fill='white'>${item.name}</text></svg>`}
+                          alt={item.name}
+                        />
                       )}
                       <Split>
                         <a

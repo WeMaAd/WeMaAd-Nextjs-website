@@ -40,9 +40,8 @@ const PortfolioCustomColumn = ({
 
       <div className={`${column === 3 ? "container-fluid" : "container"}`}>
         <div className="row">
-
           <div className="gallery full-width">
-            {portfolio1Data.map((item, index) => (
+            {portfolio1Data.map((item) => (
               <div
                 key={item.id}
                 className={`${
@@ -66,26 +65,58 @@ const PortfolioCustomColumn = ({
                       {item.image ? (
                         <img src={item.image} alt={item.title} />
                       ) : (
-                        <div style={{ background: "#151921", height: "300px", display: "flex", alignItems: "center", justifyContent: "center" }}>
-                          <span style={{ fontSize: "32px", fontWeight: "700", color: "#fff", fontFamily: "inherit", letterSpacing: "2px" }}>{item.title}</span>
+                        <div
+                          style={{
+                            background: "#151921",
+                            height: "300px",
+                            display: "flex",
+                            alignItems: "center",
+                            justifyContent: "center",
+                          }}
+                        >
+                          <span
+                            style={{
+                              fontSize: "13px",
+                              letterSpacing: "6px",
+                              textTransform: "uppercase",
+                              color: "rgba(255,255,255,0.08)",
+                            }}
+                          >
+                            {item.title}
+                          </span>
+                        </div>
+                      )}
+                      {/* .cont inside item-img: CSS handles opacity 0→1 on hover */}
+                      {!item.image && (
+                        <div className="cont">
+                          <h6>{item.title}</h6>
+                          <span>
+                            {(item.tags || []).map((tag, i) => (
+                              <React.Fragment key={i}>
+                                <span>{tag}</span>
+                                {i < item.tags.length - 1 ? "," : ""}
+                              </React.Fragment>
+                            ))}
+                          </span>
                         </div>
                       )}
                       <div className="item-img-overlay"></div>
                     </a>
                   </Link>
                 </div>
-                <div className="cont">
-                  <h6>{item.title}</h6>
-                  <span>
-                    {item.tags.map((tag, index) => (
-                      <React.Fragment key={index * 3}>
-                        {/* <Link href="/works4/works4-dark">{tag}</Link> */}
-                        <span>{tag}</span>
-                        {index == item.tags.length - 1 ? "" : ","}
-                      </React.Fragment>
-                    ))}
-                  </span>
-                </div>
+                {item.image && (
+                  <div className="cont">
+                    <h6>{item.title}</h6>
+                    <span>
+                      {item.tags.map((tag, index) => (
+                        <React.Fragment key={index * 3}>
+                          <span>{tag}</span>
+                          {index === item.tags.length - 1 ? "" : ","}
+                        </React.Fragment>
+                      ))}
+                    </span>
+                  </div>
+                )}
               </div>
             ))}
           </div>
