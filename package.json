@@ -1,6 +1,9 @@
 {
   "name": "WeMaAd-Nextjs-website",
   "private": true,
+  "engines": {
+    "node": ">=20.0.0"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
