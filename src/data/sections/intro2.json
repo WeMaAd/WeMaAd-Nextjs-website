@@ -2,24 +2,24 @@
   {
     "id": 1,
     "title": {
-      "first": "Unique",
-      "second": "brand Stories"
+      "first": "Senior Rails",
+      "second": "+ Next.js Engineers"
     },
     "image": "/img/slid/01-1.jpg"
   },
   {
     "id": 2,
     "title": {
-      "first": "Digital",
-      "second": "Design Awards"
+      "first": "Senior Product",
+      "second": "Engineering"
     },
     "image": "/img/slid/03-1.jpg"
   },
   {
     "id": 3,
     "title": {
-      "first": "Original",
-      "second": "Solutions"
+      "first": "Build smarter,",
+      "second": "ship faster."
     },
     "image": "/img/slid/02-1.jpg"
   }

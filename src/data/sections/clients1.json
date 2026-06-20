@@ -1,58 +1,30 @@
 [
   {
     "id": 1,
-    "lightImage": "/img/clients/brands/light/24EventsLogo.png",
-    "darkImage": "/img/clients/brands/dark/24EventsLogo.png",
-    "url": "https://24events.sa/",
-    "name": "24events"
-  },
-  {
-    "id": 2,
     "lightImage": "/img/clients/brands/light/Primo-light-theme.svg",
     "darkImage": "/img/clients/brands/dark/Primo-dark-theme.svg",
-    "url": "https://primo.so/",
+    "url": "https://primo.build/",
     "name": "Primo"
   },
   {
-    "id": 3,
+    "id": 2,
     "lightImage": "/img/clients/brands/light/BirthGuardiansLogo.png",
     "darkImage": "/img/clients/brands/dark/BirthGuardiansLogo.png",
     "url": "https://birthguardians-eg.org/",
     "name": "Birth Guardians"
   },
   {
-    "id": 4,
-    "lightImage": "/img/clients/brands/light/CairoCodesLogo.svg",
-    "darkImage": "/img/clients/brands/dark/CairoCodesLogo.svg",
-    "url": "https://cairo-codes.org/",
-    "name": "Cairo Codes"
-  },
-  {
-    "id": 5,
+    "id": 3,
     "lightImage": "/img/clients/brands/light/CleaningCompanyLogo.svg",
     "darkImage": "/img/clients/brands/dark/CleaningCompanyLogo.svg",
     "url": "https://cleaningweb.vercel.app/",
     "name": "Cleaning Website"
   },
   {
-    "id": 6,
-    "lightImage": "/img/clients/brands/light/las-png (3).png",
-    "darkImage": "/img/clients/brands/dark/las-png (3).png",
-    "url": "https://lassud.com/",
-    "name": "Las Urban Development"
-  },
-  {
-    "id": 7,
+    "id": 4,
     "lightImage": "/img/clients/brands/dark/js-logo.png",
     "darkImage": "/img/clients/brands/dark/js-logo.png",
     "url": "https://sitrstore.com",
     "name": "Sitr Garments Store"
-  },
-  {
-    "id": 8,
-    "lightImage": "/img/clients/brands/dark/telecom.png",
-    "darkImage": "/img/clients/brands/dark/telecom.png",
-    "url": "https://wemaad.com/websites/blt/",
-    "name": "Telecom Company"
   }
 ]

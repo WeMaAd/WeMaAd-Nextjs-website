@@ -4,25 +4,25 @@
   "image2": "/img/intro/3-1.jpg",
   "image3": "/img/intro/2-1.jpg",
   "smallTitle": "About Us",
-  "title": { "first": "We are more than just", "second": "a digital agency." },
-  "content": "We are WeMaAd. We create award-winning websites, remarkable brands and cutting-edge apps.Nullam imperdiet, sem at fringilla lobortis, sem nibh fringilla nibh, id gravida mi purus sit amet erat. Ut dictum nisi masvitp",
+  "title": { "first": "Senior engineers from Cairo —", "second": "embedded in your team, or building for you." },
+  "content": "WeMaAd is a Cairo-based software studio building modern web products for startups, SMEs, and growing engineering teams across the US and Europe.",
   "features": [
     {
       "id": 1,
-      "icon": "gleam",
-      "name": { "first": "Pixel", "second": "Perfect" },
+      "icon": "users",
+      "name": { "first": "Senior-Only", "second": "Team" },
       "wowDelay": ".3s"
     },
     {
       "id": 2,
-      "icon": "paint-bucket",
-      "name": { "first": "Creative", "second": "Design" },
+      "icon": "target",
+      "name": { "first": "Product", "second": "Thinking" },
       "wowDelay": ".5s"
     },
     {
       "id": 3,
-      "icon": "medal",
-      "name": { "first": "Heigh", "second": "Perfomance" },
+      "icon": "clock",
+      "name": { "first": "Real Timezone", "second": "Overlap" },
       "wowDelay": ".8s"
     }
   ]

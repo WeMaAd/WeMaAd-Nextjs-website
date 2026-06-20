@@ -37,11 +37,8 @@ const MinimalArea = () => {
 
               <Split>
                 <p className="wow txt words chars splitting" data-splitting>
-                  {/* Our creative agency is a team of professionals who create
-                  high-quality services. We love to create something new and
-                  beautiful.  */}
-                  We create brands that dazzle, products that perform, and
-                  experiences that elevate you.
+                  We build software that scales — not just websites that look
+                  good.
                 </p>
               </Split>
               <ul className="feat">
@@ -50,9 +47,9 @@ const MinimalArea = () => {
                     <span>1</span> Our Mission
                   </h6>
                   <p>
-                    To provide complete digital solutions to our clients. App
-                    development, web design, Digital Marketing, Branding, and
-                    fully functional one-page designs.
+                    To deliver senior-level product engineering for
+                    international teams, with the reliability of an in-house
+                    developer and the flexibility of an agency.
                   </p>
                 </li>
                 <li className="wow fadeInUp" data-wow-delay=".4s">
@@ -60,8 +57,9 @@ const MinimalArea = () => {
                     <span>2</span> Our Goals
                   </h6>
                   <p>
-                    To help make your business stands out. To make your brand
-                    recognized by the right people with the right message.
+                    Help startups and scaling companies ship faster by embedding
+                    senior engineers directly into their teams, or building
+                    their products end-to-end.
                   </p>
                 </li>
                 <li className="wow fadeInUp" data-wow-delay=".6s">
@@ -69,11 +67,10 @@ const MinimalArea = () => {
                     <span>3</span> Why Us?
                   </h6>
                   <p>
-                    You are overwhelmed with the opportunities in digital
-                    marketing and you want to be the best. You want the most
-                    proven digital marketing services you can trust in one
-                    convenient place, with quick delivery, and affordable
-                    pricing.
+                    You need senior engineers who communicate in English, work
+                    in your timezone, and care about outcomes — not junior
+                    throughput or closed tickets. WeMaAd is the reliable Cairo
+                    engineering partner for US and European teams.
                   </p>
                 </li>
               </ul>

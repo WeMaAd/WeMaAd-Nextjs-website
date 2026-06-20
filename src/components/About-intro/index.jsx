@@ -15,13 +15,15 @@ const AboutIntro = () => {
             <div className="text">
               <Split>
                 <p className="wow txt words chars splitting" data-splitting>
-                  We develop creative solutions for small and big brands alike,
-                  build authentic product identities, and much more. We are a
-                  one-stop shop for all your marketing needs. our team has it
-                  all under control and working in perfect harmony. As a
-                  full-cycle marketing agency, we help you with everything you
-                  need to advertise your business, get it on the map, and
-                  increase sales.
+                  WeMaAd is a Cairo-based software studio building modern web
+                  products for startups, SMEs, and growing engineering teams
+                  across the US and Europe. We work two ways: embedded
+                  engineering, where senior developers join your team and ship
+                  like full-time staff without the full-time overhead; and
+                  end-to-end builds, from MVP to a scalable, production-ready
+                  product. Our stack is modern and proven: Ruby on Rails,
+                  Next.js, and AI/LLM integration for teams that want
+                  intelligent features without the R&amp;D detour.
                 </p>
               </Split>
             </div>

@@ -13,30 +13,20 @@ class MyDocument extends Document {
       <Html lang="en">
         <Head>
           <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
-          {/* <meta
-            name="keywords"
-            content="web design, web development, web application, web design company, website portfolio, business website, web developer full stack, developer website, web application development, web software design, web app development, create your website, web software development, stack dev, website and app developer, full stack dev, branding, Marketing, Social Media Marketing, SEO Optimization, Ecommerce, Digital Marketing"
-          /> */}
           <meta
             name="keywords"
-            content="best software development companies, app development services, ecommerce solutions, seo services, branding agency, web design company, web development company, designer, best designer, web design agency, app development company, development company, e-commerce website design, e-commerce website developers, e-commerce business solutions, best web designers in the world, web design firm, web design agency, web design company, website design, app development, mobile app development, digital marketing agency, digital marketing company, seo services, search engine optimization (SEO), search engine marketing (SEM), social media marketing, ecommerce solutions, ecommerce site builder"
+            content="senior rails engineers, next.js developers, product engineering studio, embedded engineering team, ruby on rails development, react development, AI integration, SaaS development, Cairo software engineers"
           />
-          {/* <meta
-            name="description"
-            content="We are a leading Web solution agency that specializes in creating and maintaining high quality websites, web applications, branding, marketing, and other services. 
-      We have a team of experienced web developers and designers who are well versed in the latest web technologies."
-          /> */}
           <meta
             name="description"
-            content="WeMaAd is a leading digital agency that delivers top-notch web design and development, app development, digital marketing, SEO/SEM, and E-Commerce solutions to brand their clients' business across the internet."
+            content="WeMaAd is a senior product engineering studio based in Cairo. We embed Rails and Next.js engineers directly into your team, or build end-to-end products for you."
           />
-          <meta name="author" content="Abdullah Sadaqa" />
+          <meta name="author" content="WeMaAd" />
           <meta name="robots" content="index, follow" />
           <meta
             name="copyright"
             content="WeMaAd is a registered trademark of WeMaAd"
           />
-          {/* <meta name="revisit-after" content="7 days" /> */}
           <link rel="shortcut icon" href="/img/atom-logo-light.svg" />
           <link
             rel="apple-touch-icon"
