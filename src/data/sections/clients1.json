@@ -1,56 +1,56 @@
 [
   {
     "id": 1,
-    "lightImage": "/img/clients/brands/light/Primo-light-theme.svg",
-    "darkImage": "/img/clients/brands/dark/Primo-dark-theme.svg",
-    "url": "https://primo.build/",
-    "name": "Primo"
-  },
-  {
-    "id": 2,
-    "lightImage": "/img/clients/brands/light/BirthGuardiansLogo.png",
-    "darkImage": "/img/clients/brands/dark/BirthGuardiansLogo.png",
-    "url": "https://birthguardians-eg.org/",
-    "name": "Birth Guardians"
-  },
-  {
-    "id": 3,
-    "lightImage": "/img/clients/brands/light/CleaningCompanyLogo.svg",
-    "darkImage": "/img/clients/brands/dark/CleaningCompanyLogo.svg",
-    "url": "https://cleaningweb.vercel.app/",
-    "name": "Cleaning Website"
-  },
-  {
-    "id": 4,
-    "lightImage": "/img/clients/brands/dark/js-logo.png",
-    "darkImage": "/img/clients/brands/dark/js-logo.png",
-    "url": "https://sitrstore.com",
-    "name": "Sitr Garments Store"
-  },
-  {
-    "id": 5,
     "lightImage": "/img/clients/brands/light/high-five-logo.svg",
     "darkImage": "/img/clients/brands/dark/high-five-logo.svg",
     "url": "https://www.high-five.ai/",
     "name": "High-Five"
   },
   {
-    "id": 6,
+    "id": 2,
     "lightImage": "/img/clients/brands/light/remotecoders-logo.jpg",
     "darkImage": "/img/clients/brands/dark/remotecoders-logo.jpg",
     "url": "https://remotecoders.org/",
     "name": "Remotecoders"
   },
   {
-    "id": 7,
+    "id": 3,
     "lightImage": "/img/clients/brands/light/viu-logo.svg",
     "darkImage": "/img/clients/brands/dark/viu-logo.svg",
     "url": "https://www.viu.ch/",
     "name": "Viu"
   },
   {
-    "id": 8,
+    "id": 4,
     "url": "https://amaken.life/",
     "name": "Amaken"
+  },
+  {
+    "id": 5,
+    "lightImage": "/img/clients/brands/light/Primo-light-theme.svg",
+    "darkImage": "/img/clients/brands/dark/Primo-dark-theme.svg",
+    "url": "https://primo.build/",
+    "name": "Primo"
+  },
+  {
+    "id": 6,
+    "lightImage": "/img/clients/brands/light/BirthGuardiansLogo.png",
+    "darkImage": "/img/clients/brands/dark/BirthGuardiansLogo.png",
+    "url": "https://birthguardians-eg.org/",
+    "name": "Birth Guardians"
+  },
+  {
+    "id": 7,
+    "lightImage": "/img/clients/brands/light/CleaningCompanyLogo.svg",
+    "darkImage": "/img/clients/brands/dark/CleaningCompanyLogo.svg",
+    "url": "https://cleaningweb.vercel.app/",
+    "name": "Cleaning Website"
+  },
+  {
+    "id": 8,
+    "lightImage": "/img/clients/brands/dark/js-logo.png",
+    "darkImage": "/img/clients/brands/dark/js-logo.png",
+    "url": "https://sitrstore.com",
+    "name": "Sitr Garments Store"
   }
 ]
