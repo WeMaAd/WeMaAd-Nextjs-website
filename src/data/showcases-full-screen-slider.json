@@ -26,5 +26,26 @@
     "image": "/img/portfolio/full/amaken-banner.png",
     "sub": "Next.js · NestJS · PostgreSQL",
     "url": "https://amaken.life/"
+  },
+  {
+    "id": 5,
+    "title": { "first": "High", "second": "Five" },
+    "image": "/img/portfolio/full/high-five-banner.png",
+    "sub": "Senior Engineering",
+    "url": "https://www.high-five.ai/"
+  },
+  {
+    "id": 6,
+    "title": { "first": "Remote", "second": "Coders" },
+    "image": "/img/portfolio/full/remotecoders-banner.png",
+    "sub": "Senior Engineering",
+    "url": "https://remotecoders.org/"
+  },
+  {
+    "id": 7,
+    "title": { "first": "Viu", "second": "" },
+    "image": "/img/portfolio/full/viu-banner.png",
+    "sub": "Senior Engineering",
+    "url": "https://www.viu.ch/"
   }
 ]

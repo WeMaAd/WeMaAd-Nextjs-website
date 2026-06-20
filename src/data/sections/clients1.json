@@ -29,22 +29,22 @@
   },
   {
     "id": 5,
-    "lightImage": "/img/clients/brands/light/high-five-logo.png",
-    "darkImage": "/img/clients/brands/dark/high-five-logo.png",
+    "lightImage": "/img/clients/brands/light/high-five-logo.svg",
+    "darkImage": "/img/clients/brands/dark/high-five-logo.svg",
     "url": "https://www.high-five.ai/",
     "name": "High-Five"
   },
   {
     "id": 6,
-    "lightImage": "/img/clients/brands/light/remotecoders-logo.png",
-    "darkImage": "/img/clients/brands/dark/remotecoders-logo.png",
+    "lightImage": "/img/clients/brands/light/remotecoders-logo.webp",
+    "darkImage": "/img/clients/brands/dark/remotecoders-logo.webp",
     "url": "https://remotecoders.org/",
     "name": "Remotecoders"
   },
   {
     "id": 7,
-    "lightImage": "/img/clients/brands/light/viu-logo.png",
-    "darkImage": "/img/clients/brands/dark/viu-logo.png",
+    "lightImage": "/img/clients/brands/light/viu-logo.svg",
+    "darkImage": "/img/clients/brands/dark/viu-logo.svg",
     "url": "https://www.viu.ch/",
     "name": "Viu"
   },
