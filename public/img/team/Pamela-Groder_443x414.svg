@@ -1,46 +1,63 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 443 414" width="443" height="414">
-  <!-- Background -->
-  <rect width="443" height="414" fill="#f0f0f0"/>
+  <defs>
+    <clipPath id="bounds">
+      <rect width="443" height="414"/>
+    </clipPath>
+  </defs>
 
-  <!-- Body / top -->
-  <ellipse cx="221" cy="480" rx="140" ry="110" fill="#1bd8eb"/>
+  <!-- Background -->
+  <rect width="443" height="414" fill="#e8e8e8"/>
+
+  <!-- Body / blouse -->
+  <ellipse cx="221" cy="500" rx="190" ry="145" fill="#1bd8eb" clip-path="url(#bounds)"/>
 
   <!-- Neck -->
-  <rect x="198" y="255" width="46" height="50" rx="10" fill="#d4a896"/>
+  <rect x="200" y="272" width="43" height="55" rx="8" fill="#c8a882"/>
 
-  <!-- Collar detail -->
-  <ellipse cx="221" cy="310" rx="45" ry="18" fill="#17c2d4"/>
+  <!-- Collar cutout -->
+  <polygon points="221,310 195,335 247,335" fill="#17c4d6"/>
 
   <!-- Head -->
-  <ellipse cx="221" cy="195" rx="80" ry="88" fill="#d4a896"/>
+  <ellipse cx="221" cy="205" rx="75" ry="82" fill="#c8a882"/>
 
-  <!-- Hair - long, feminine -->
-  <!-- Top/crown -->
-  <ellipse cx="221" cy="130" rx="80" ry="42" fill="#3d2b1f"/>
-  <!-- Left side hair -->
-  <ellipse cx="150" cy="200" rx="28" ry="75" fill="#3d2b1f"/>
-  <!-- Right side hair -->
-  <ellipse cx="292" cy="200" rx="28" ry="75" fill="#3d2b1f"/>
-  <!-- Back/bottom hair flow -->
-  <ellipse cx="221" cy="270" rx="88" ry="30" fill="#3d2b1f"/>
+  <!-- Hair body — long, behind head -->
+  <ellipse cx="221" cy="185" rx="82" ry="90" fill="#2c1a0e"/>
+  <!-- Long side curtains -->
+  <ellipse cx="152" cy="240" rx="32" ry="85" fill="#2c1a0e"/>
+  <ellipse cx="290" cy="240" rx="32" ry="85" fill="#2c1a0e"/>
+  <!-- Hair bottom sweep -->
+  <ellipse cx="221" cy="318" rx="92" ry="28" fill="#2c1a0e"/>
 
-  <!-- Re-draw face area over hair -->
-  <ellipse cx="221" cy="200" rx="68" ry="78" fill="#d4a896"/>
+  <!-- Face (on top of hair) -->
+  <ellipse cx="221" cy="210" rx="65" ry="74" fill="#c8a882"/>
+
+  <!-- Eyebrows -->
+  <path d="M185 182 Q196 175 207 182" stroke="#2c1a0e" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+  <path d="M235 182 Q246 175 257 182" stroke="#2c1a0e" stroke-width="3.5" fill="none" stroke-linecap="round"/>
 
   <!-- Eyes -->
-  <ellipse cx="192" cy="192" rx="9" ry="6" fill="#fff"/>
-  <circle cx="193" cy="192" r="5" fill="#3d2b1f"/>
-  <ellipse cx="250" cy="192" rx="9" ry="6" fill="#fff"/>
-  <circle cx="249" cy="192" r="5" fill="#3d2b1f"/>
+  <ellipse cx="196" cy="200" rx="10" ry="7" fill="#fff"/>
+  <circle cx="196" cy="200" r="5.5" fill="#2c1a0e"/>
+  <circle cx="198" cy="198" r="1.5" fill="#fff"/>
 
-  <!-- Eyebrows - slightly arched -->
-  <path d="M182 180 Q193 173 204 180" stroke="#3d2b1f" stroke-width="3" fill="none" stroke-linecap="round"/>
-  <path d="M240 180 Q251 173 262 180" stroke="#3d2b1f" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <ellipse cx="246" cy="200" rx="10" ry="7" fill="#fff"/>
+  <circle cx="246" cy="200" r="5.5" fill="#2c1a0e"/>
+  <circle cx="248" cy="198" r="1.5" fill="#fff"/>
+
+  <!-- Eyelashes (feminine touch) -->
+  <path d="M186 193 Q183 189 180 188" stroke="#2c1a0e" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <path d="M236 193 Q239 189 242 188" stroke="#2c1a0e" stroke-width="2" fill="none" stroke-linecap="round"/>
 
   <!-- Nose -->
-  <path d="M221 200 Q217 215 213 218 Q221 222 229 218 Q225 215 221 200" fill="#c49080"/>
+  <path d="M221 215 Q216 228 212 231 Q221 235 230 231 Q226 228 221 215" fill="#b8956e"/>
+
+  <!-- Smile -->
+  <path d="M205 248 Q221 260 237 248" stroke="#a07050" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+
+  <!-- Cheek blush -->
+  <ellipse cx="179" cy="222" rx="14" ry="8" fill="#e8a090" opacity="0.4"/>
+  <ellipse cx="263" cy="222" rx="14" ry="8" fill="#e8a090" opacity="0.4"/>
 
   <!-- Lips -->
-  <path d="M206 232 Q221 243 236 232" stroke="#c07070" stroke-width="2.5" fill="none" stroke-linecap="round"/>
-  <path d="M206 232 Q221 228 236 232" stroke="#c07070" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+  <path d="M207 248 Q221 256 235 248 Q221 244 207 248Z" fill="#c07060"/>
 </svg>
