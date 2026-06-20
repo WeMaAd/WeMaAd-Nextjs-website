@@ -81,8 +81,8 @@ class Team1 extends React.Component {
                     data-wow-delay=".3s"
                     key={item.id}
                   >
-                    <div className="img wow imago">
-                      <img src={item.image} alt="" />
+                    <div className="img wow imago" style={{ height: "250px", overflow: "hidden" }}>
+                      <img src={item.image} alt="" style={{ width: "100%", height: "100%", objectFit: "cover", objectPosition: "center top" }} />
                     </div>
                     <div className="info">
                       <h5>{item.name}</h5>
