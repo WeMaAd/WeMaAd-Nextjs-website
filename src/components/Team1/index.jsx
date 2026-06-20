@@ -93,18 +93,11 @@ class Team1 extends React.Component {
                         {item.title}
                       </span>
                       <div className="social">
-                        <a href={item.socialUrl1}>
-                          <i className={`fab ${item.socialIcon1}`}></i>
-                        </a>
-                        <a href={item.socialUrl2}>
-                          <i className={`fab ${item.socialIcon2}`}></i>
-                        </a>
-                        <a href={item.socialUrl3}>
-                          <i className={`fab ${item.socialIcon3}`}></i>
-                        </a>
-                        <a href={item.socialUrl4}>
-                          <i className={`fab ${item.socialIcon4}`}></i>
-                        </a>
+                        {(item.socials || []).map((s, idx) => (
+                          <a key={idx} href={s.url} target="_blank" rel="noopener noreferrer">
+                            <i className={`fab ${s.icon}`}></i>
+                          </a>
+                        ))}
                       </div>
                     </div>
                   </div>
