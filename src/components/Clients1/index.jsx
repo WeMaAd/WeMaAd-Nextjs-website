@@ -27,10 +27,14 @@ const Clients1 = ({ theme, subBG }) => {
                     data-wow-delay={`${delays[index] || ".3"}s`}
                   >
                     <div className="img">
-                      {theme === "light" ? (
-                        <img src={item.lightImage} alt={item.name} />
+                      {item.darkImage ? (
+                        theme === "light" ? (
+                          <img src={item.lightImage} alt={item.name} />
+                        ) : (
+                          <img src={item.darkImage} alt={item.name} />
+                        )
                       ) : (
-                        <img src={item.darkImage} alt={item.name} />
+                        <span style={{ fontSize: "18px", fontWeight: "700", color: "#fff", letterSpacing: "1px" }}>{item.name}</span>
                       )}
                       <Split>
                         <a
