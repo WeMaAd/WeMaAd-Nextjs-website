@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 import Split from "../Split";
 
 const WhoWeWorkWith = () => {
@@ -21,11 +22,13 @@ const WhoWeWorkWith = () => {
               <span className="icon pe-7s-display2"></span>
               <h6>You need a product built.</h6>
               <p>
-                Startups and SMEs who want to go from idea to production without
-                building an in-house team. We own the full build — architecture,
-                development, QA, and delivery — end to end. You focus on the
-                business. We ship the product.
+                From MVP to production — we own the full build so you can focus
+                on the business. Architecture, development, and delivery,
+                end to end.
               </p>
+              <Link href="/how-we-work#build">
+                <a className="simple-btn mt-20">See how it works &rarr;</a>
+              </Link>
             </div>
           </div>
           <div className="col-lg-6 wow fadeInUp" data-wow-delay=".5s">
@@ -33,11 +36,12 @@ const WhoWeWorkWith = () => {
               <span className="icon pe-7s-users"></span>
               <h6>You need senior engineers.</h6>
               <p>
-                US and EU companies who want senior talent without the hiring
-                overhead. We place vetted engineers who work full-time in your
-                timezone with your team and your clients — and we handle all HR,
-                contracts, and management so you don&apos;t have to.
+                Senior talent, your timezone, zero hiring overhead. We place
+                vetted engineers and handle all HR, contracts, and management.
               </p>
+              <Link href="/how-we-work#hire">
+                <a className="simple-btn mt-20">See how it works &rarr;</a>
+              </Link>
             </div>
           </div>
         </div>
