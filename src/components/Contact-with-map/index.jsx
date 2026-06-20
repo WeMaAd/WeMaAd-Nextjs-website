@@ -1,49 +1,6 @@
 import React from "react";
-import { Formik, Form, Field } from "formik";
 
 const ContactWithMap = () => {
-  const messageRef = React.useRef(null);
-  function validateEmail(value) {
-    let error;
-    if (!value) {
-      error = "Required";
-    } else if (!/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i.test(value)) {
-      error = "Invalid email address";
-    }
-    return error;
-  }
-  const validatePhone = (value) => {
-    let error;
-    if (!value) {
-      error = "Required";
-    } else if (!/^[0-9]{9,}$/i.test(value)) {
-      error = "Invalid phone number";
-    }
-    return error;
-  };
-
-  const sendMessage = ({ name, email, phone, message }) => {
-    let data = {
-      Name: name,
-      Email: email,
-      Phone: phone,
-      Message: message,
-      "Data Collection": "Accepted the data collection",
-      "Form Origin": "From WeMaAd Website the Contact Us Page",
-    };
-    // fetch the values of the email field and send it to the server
-    fetch("https://usebasin.com/f/f5aeb5b551e1", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify(data),
-    })
-      .then((res) => res.json())
-      .then((data) => console.log(data))
-      .catch((err) => console.log(err));
-  };
-
   return (
     <>
       <section className="contact section-padding">
@@ -53,99 +10,64 @@ const ContactWithMap = () => {
               <div className="form md-mb50">
                 <h4 className="extra-title mb-50">Get In Touch.</h4>
 
-                <Formik
-                  initialValues={{
-                    name: "",
-                    email: "",
-                    phone: "",
-                    message: "",
-                  }}
-                  onSubmit={async (values) => {
-                    await sendMessage(values);
-                    // alert(JSON.stringify(values, null, 2));
-                    // show message
-
-                    messageRef.current.innerText =
-                      "Your Message has been successfully sent. We will contact you soon.";
-                    // Reset the values
-                    values.name = "";
-                    values.email = "";
-                    values.phone = "";
-                    values.message = "";
-                    // clear message
-                    setTimeout(() => {
-                      messageRef.current.innerText = "";
-                    }, 2000);
-                  }}
+                <form
+                  id="contact-form"
+                  action="https://usebasin.com/f/f5aeb5b551e1"
+                  method="POST"
                 >
-                  {({ errors, touched }) => (
-                    <Form id="contact-form">
-                      <div className="messages" ref={messageRef}></div>
+                  <div className="controls">
+                    <div className="form-group">
+                      <input
+                        id="form_name"
+                        type="text"
+                        name="name"
+                        placeholder="Name"
+                        required
+                      />
+                    </div>
 
-                      <div className="controls">
-                        <div className="form-group">
-                          <Field
-                            id="form_name"
-                            type="text"
-                            name="name"
-                            placeholder="Name"
-                            required="required"
-                          />
-                        </div>
+                    <div className="form-group">
+                      <input
+                        id="form_email"
+                        type="email"
+                        name="email"
+                        placeholder="Email"
+                        required
+                      />
+                    </div>
 
-                        <div className="form-group">
-                          <Field
-                            validate={validateEmail}
-                            id="form_email"
-                            type="email"
-                            name="email"
-                            placeholder="Email"
-                            required="required"
-                          />
-                          {errors.email && touched.email && (
-                            <div>{errors.email}</div>
-                          )}
-                        </div>
+                    <div className="form-group">
+                      <input
+                        id="form_phone"
+                        type="tel"
+                        name="phone"
+                        placeholder="Phone with country code"
+                        required
+                      />
+                    </div>
 
-                        <div className="form-group">
-                          <Field
-                            validate={validatePhone}
-                            id="form_phone"
-                            type="tel"
-                            name="phone"
-                            placeholder="Phone with country code"
-                            required="required"
-                          />
-                          {errors.phone && touched.phone && (
-                            <div>{errors.phone}</div>
-                          )}
-                        </div>
+                    <div className="form-group">
+                      <textarea
+                        id="form_message"
+                        name="message"
+                        placeholder="Message"
+                        rows="4"
+                        required
+                      />
+                    </div>
 
-                        <div className="form-group">
-                          <Field
-                            as="textarea"
-                            id="form_message"
-                            name="message"
-                            placeholder="Message"
-                            rows="4"
-                            required="required"
-                          />
-                        </div>
+                    <div className="form-group">
+                      <span>
+                        By submitting the form, I agree that my submitted data
+                        is being collected and stored.
+                      </span>
+                    </div>
 
-                        <div className="form-group">
-                          <span>
-                            By submiting the form, I agree that my submitted
-                            data is being collected and stored.
-                          </span>
-                        </div>
-
-                        <button type="submit" className="btn-curve btn-lit">
-                          <span>Send Message</span>
-                        </button>
-                      </div>
-                    </Form>
-                  )}
-                </Formik>
+                    <button type="submit" className="btn-curve btn-lit">
+                      <span>Send Message</span>
+                    </button>
+                  </div>
+                </form>
               </div>
             </div>
             <div className="col-lg-5 offset-lg-1">
@@ -162,16 +84,6 @@ const ContactWithMap = () => {
                     <a href="tel:+201142549787">+20 114 254 9787</a>
                   </h5>
                 </div>
-                {/* <h3 className="custom-font wow" data-splitting>
-                  Visit Us.
-                </h3>
-                <div className="item">
-                  <h6>
-                    295 Witting Streets Suite 666,
-                    <br />
-                    Melbourne, Australia
-                  </h6>
-                </div> */}
                 <div className="social mt-50">
                   <a href="https://www.facebook.com/" className="icon">
                     <i className="fab fa-facebook-f"></i>
@@ -209,10 +121,7 @@ const ContactWithMap = () => {
       <footer className="footer-half sub-bg">
         <div className="container">
           <div className="copyrights text-center mt-0">
-            <p>
-              © WeMaAd with ♥ in World. All Rights Reserved.
-              {/* <a href="#0">ThemesCamp</a>. */}
-            </p>
+            <p>© WeMaAd with ♥ in World. All Rights Reserved.</p>
           </div>
         </div>
       </footer>

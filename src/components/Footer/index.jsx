@@ -1,38 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 import React from "react";
-import { Formik, Form, Field } from "formik";
 import appData from "../../data/app.json";
-
-const Footer = () => {
-  function validateEmail(value) {
-    let error;
-    if (!value) {
-      error = "Required";
-    } else if (!/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i.test(value)) {
-      error = "Invalid email address";
-    }
-    return error;
-  }
-  // sendEmail should be a function that sned the value of the email field to a fetch request
-  const sendEmail = ({ email }) => {
-    let data = {
-      "Subscribe email": email,
-      "Data Collection": "Accepted the data collection",
-      "Form Origin": "From WeMaAd Website subscribe newsletter",
-    };
-    // fetch the values of the email field and send it to the server
-    fetch("https://usebasin.com/f/f5aeb5b551e1", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify(data),
-    })
-      .then((res) => res.json())
-      .then((data) => console.log(data))
-      .catch((err) => console.log(err));
-  };
-  // const sendEmail = (ms) => new Promise((r) => setTimeout(r, ms));
   return (
     <footer className="footer-half sub-bg section-padding pb-0">
       <div className="container">
@@ -93,51 +61,22 @@ const Footer = () => {
                 Subscribe to stay updated on what we&apos;re building and
                 thinking about.
               </p>
-              <Formik
-                initialValues={{
-                  email: "",
-                }}
-                onSubmit={async (values) => {
-                  await sendEmail(values);
-                  // alert(JSON.stringify(values, null, 2));
-                  // send the email to a google sheet using the values.email using the google api sheet
-                  document.querySelector(".alert-success").style.display =
-                    "block";
-                  setTimeout(() => {
-                    document.querySelector(".alert-success").style.display =
-                      "none";
-                  }, 5000);
-
-                  // Reset the values
-                  values.email = "";
-                }}
+              <form
+                action="https://usebasin.com/f/f5aeb5b551e1"
+                method="POST"
               >
-                {({ errors, touched }) => (
-                  <Form>
-                    <div className="form-group custom-font">
-                      <Field
-                        validate={validateEmail}
-                        type="email"
-                        name="email"
-                        placeholder="Your Email"
-                      />
-                      {errors.email && touched.email && (
-                        <div>{errors.email}</div>
-                      )}
-                      <button className="cursor-pointer" type="submit">
-                        Subscribe
-                      </button>
-                    </div>
-                  </Form>
-                )}
-              </Formik>
-              <div
-                className="alert alert-success"
-                style={{ display: "none", marginTop: "10px" }}
-                role="alert"
-              >
-                Thank you for subscribing to our newsletter
-              </div>
+                <div className="form-group custom-font">
+                  <input
+                    type="email"
+                    name="email"
+                    placeholder="Your Email"
+                    required
+                  />
+                  <button className="cursor-pointer" type="submit">
+                    Subscribe
+                  </button>
+                </div>
+              </form>
             </div>
             <div className="insta">
               <h6 className="custom-font stit simple-btn">Instagram Post</h6>
