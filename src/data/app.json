@@ -1,5 +1,15 @@
 {
   "lightLogo": "/img/atom-logo-dark.svg",
   "darkLogo": "/img/atom-logo-light.svg",
-  "showLoading": true
+  "showLoading": true,
+  "phone": "+201142549787",
+  "phoneDisplay": "+20 114 254 9787",
+  "email": "hello@wemaad.net",
+  "emailDisplay": "Hello@wemaad.net",
+  "formEndpoint": "https://usebasin.com/f/f5aeb5b551e1",
+  "social": {
+    "instagram": "https://www.instagram.com/wemaad.llc/",
+    "twitter": "https://twitter.com/WemaadL",
+    "linkedin": "https://www.linkedin.com/company/wemaad/"
+  }
 }

@@ -111,9 +111,7 @@ const BlogDetails = () => {
                       </p>
                       <div className="share-info">
                         <div className="social">
-                          <a href="#0">
-                            <i className="fab fa-facebook-f"></i>
-                          </a>
+                          {/* <a href="#0"><i className="fab fa-facebook-f"></i></a> */}
                           <a href="#0">
                             <i className="fab fa-twitter"></i>
                           </a>
@@ -141,9 +139,7 @@ const BlogDetails = () => {
                           of a healthy environment.
                         </p>
                         <div className="social">
-                          <a href="#0">
-                            <i className="fab fa-facebook-f"></i>
-                          </a>
+                          {/* <a href="#0"><i className="fab fa-facebook-f"></i></a> */}
                           <a href="#0">
                             <i className="fab fa-twitter"></i>
                           </a>

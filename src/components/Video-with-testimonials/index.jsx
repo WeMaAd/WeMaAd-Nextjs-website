@@ -9,9 +9,6 @@ import clientsTestimonialData from "../../data/sections/clients-testimonial.json
 
 const VideoWithTestimonials = () => {
   const [isOpen, setOpen] = React.useState(false);
-  React.useEffect(() => {
-    console.clear();
-  }, []);
   const settings = {
     dots: true,
     infinite: true,

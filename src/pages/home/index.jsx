@@ -11,26 +11,13 @@ import SkillsCircle from "../../components/Skills-circle";
 import WhoWeWorkWith from "../../components/Who-we-work-with";
 import VideoWithTestimonials from "../../components/Video-with-testimonials";
 import DarkTheme from "../../layouts/Dark";
+import { useNavbarScroll } from "../../hooks/useNavbarScroll";
 
 const Homepage2 = () => {
   const navbarRef = React.useRef(null);
   const logoRef = React.useRef(null);
 
-  React.useEffect(() => {
-    var navbar = navbarRef.current;
-    if (window.pageYOffset > 300) {
-      navbar.classList.add("nav-scroll");
-    } else {
-      navbar.classList.remove("nav-scroll");
-    }
-    window.addEventListener("scroll", () => {
-      if (window.pageYOffset > 300) {
-        navbar.classList.add("nav-scroll");
-      } else {
-        navbar.classList.remove("nav-scroll");
-      }
-    });
-  }, [navbarRef]);
+  useNavbarScroll(navbarRef);
 
   return (
     <DarkTheme>

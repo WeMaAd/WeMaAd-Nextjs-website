@@ -3,13 +3,17 @@ import ContactHeader from "../../components/Contact-header";
 import ContactWithMap from "../../components/Contact-with-map";
 import Navbar from "../../components/Navbar";
 import DarkTheme from "../../layouts/Dark";
+import { useNavbarScroll } from "../../hooks/useNavbarScroll";
 
 const Contact = () => {
   const fixedHeader = React.useRef(null);
   const MainContent = React.useRef(null);
   const navbarRef = React.useRef(null);
+
+  useNavbarScroll(navbarRef);
+
   React.useEffect(() => {
-    setInterval(() => {
+    const interval = setInterval(() => {
       if (fixedHeader.current) {
         var slidHeight = fixedHeader.current.offsetHeight;
       }
@@ -17,19 +21,7 @@ const Contact = () => {
         MainContent.current.style.marginTop = slidHeight + "px";
       }
     }, 1000);
-    var navbar = navbarRef.current;
-    if (window.pageYOffset > 300) {
-      navbar.classList.add("nav-scroll");
-    } else {
-      navbar.classList.remove("nav-scroll");
-    }
-    window.addEventListener("scroll", () => {
-      if (window.pageYOffset > 300) {
-        navbar.classList.add("nav-scroll");
-      } else {
-        navbar.classList.remove("nav-scroll");
-      }
-    });
+    return () => clearInterval(interval);
   }, []);
   return (
     <DarkTheme>

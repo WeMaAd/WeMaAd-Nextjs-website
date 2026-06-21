@@ -1,0 +1,74 @@
+[
+  {
+    "id": "build",
+    "anchor": "build",
+    "icon": "pe-7s-display2",
+    "title": "You need a product built.",
+    "description": "For startups, SMEs, and non-technical founders who want to go from idea to production without building an in-house engineering team. We own the full build and deliver a product you can hand to users on day one.",
+    "features": [
+      "Ruby on Rails · Next.js · React · Node.js · NestJS · Go · Python · PostgreSQL · AI/LLM",
+      "MVP to production-ready",
+      "Full code & infrastructure ownership",
+      "Fixed scope or ongoing retainer"
+    ],
+    "cta": { "label": "Start a project", "href": "/contact" },
+    "steps": [
+      {
+        "num": "01",
+        "title": "Discovery",
+        "body": "We learn your product, users, and goals. No fluff — just the decisions we need to start building right."
+      },
+      {
+        "num": "02",
+        "title": "Architecture",
+        "body": "We design the technical foundation: stack, data model, integrations. You review and approve before a line of code is written."
+      },
+      {
+        "num": "03",
+        "title": "Build & Iterate",
+        "body": "We ship in short cycles. You see real progress every week, not a big reveal at the end."
+      },
+      {
+        "num": "04",
+        "title": "Launch & Handoff",
+        "body": "We deploy to production and hand over full ownership — source code, docs, infrastructure access."
+      }
+    ]
+  },
+  {
+    "id": "hire",
+    "anchor": "hire",
+    "icon": "pe-7s-users",
+    "title": "You need senior engineers.",
+    "description": "For US and EU companies that want senior talent without the hiring overhead. Our engineers work embedded with your team and your clients, in your timezone — while we handle all HR, contracts, and management.",
+    "features": [
+      "Senior-only, pre-vetted engineers",
+      "Dedicated, your timezone",
+      "Works directly with your clients",
+      "HR, contracts & management on us"
+    ],
+    "cta": { "label": "Hire an engineer", "href": "/contact" },
+    "steps": [
+      {
+        "num": "01",
+        "title": "Brief Us",
+        "body": "Tell us the role, the stack, and the team context. We'll confirm fit within 48 hours."
+      },
+      {
+        "num": "02",
+        "title": "We Match",
+        "body": "We propose one or two engineers from our senior pool. You interview them just like a direct hire."
+      },
+      {
+        "num": "03",
+        "title": "Engineer Joins Your Team",
+        "body": "They work in your tools, your timezone, with your clients — as if they're on your payroll."
+      },
+      {
+        "num": "04",
+        "title": "We Handle the Rest",
+        "body": "HR, contracts, payroll, and performance management stay with us. You get the output without the overhead."
+      }
+    ]
+  }
+]
