@@ -19,7 +19,7 @@ const AboutIntro = () => {
                   products for startups, SMEs, and growing engineering teams
                   across the US and Europe. We work two ways: embedded
                   engineering, where senior developers join your team and ship
-                  like full-time staff without the full-time overhead; and
+                  like dedicated staff without the hiring overhead; and
                   end-to-end builds, from MVP to a scalable, production-ready
                   product. Our stack is modern and proven: Ruby on Rails,
                   Next.js, and AI/LLM integration for teams that want

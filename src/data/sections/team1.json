@@ -4,69 +4,38 @@
     "image": "/img/team/Abdullah-Sadaqa_443x414.png",
     "name": "Abdullah Sadaqa",
     "title": "CEO & Founder",
-    "socialIcon1": "fa-facebook-f",
-    "socialUrl1": "https://www.facebook.com",
-    "socialIcon2": "fa-github",
-    "socialUrl2": "https://www.github.com",
-    "socialIcon3": "fa-linkedin",
-    "socialUrl3": "https://www.linkedin.com",
-    "socialIcon4": "fa-instagram",
-    "socialUrl4": "https://www.instagram.com"
+    "socials": [
+      { "icon": "fa-github", "url": "https://github.com/Dark-Developer93" },
+      { "icon": "fa-linkedin", "url": "https://www.linkedin.com/in/abdullahsadaqa/" }
+    ]
   },
   {
     "id": 2,
     "image": "/img/team/Alex-Beaman_443x414.jpg",
     "name": "Alex Beaman",
     "title": "Development Consultant",
-    "socialIcon1": "fa-facebook-f",
-    "socialUrl1": "https://www.facebook.com",
-    "socialIcon2": "fa-github",
-    "socialUrl2": "https://www.github.com",
-    "socialIcon3": "fa-linkedin",
-    "socialUrl3": "https://www.linkedin.com",
-    "socialIcon4": "fa-instagram",
-    "socialUrl4": "https://www.instagram.com"
+    "socials": [
+      { "icon": "fa-github", "url": "https://github.com/Beamanator" },
+      { "icon": "fa-linkedin", "url": "https://www.linkedin.com/in/alex-beaman/" }
+    ]
   },
   {
     "id": 3,
     "image": "/img/team/Mateo-Morris_1_443x414.jpg",
     "name": "Mateo Morris",
     "title": "Development Consultant",
-    "socialIcon1": "fa-facebook-f",
-    "socialUrl1": "https://www.facebook.com",
-    "socialIcon2": "fa-github",
-    "socialUrl2": "https://www.github.com",
-    "socialIcon3": "fa-linkedin",
-    "socialUrl3": "https://www.linkedin.com",
-    "socialIcon4": "fa-instagram",
-    "socialUrl4": "https://www.instagram.com"
+    "socials": [
+      { "icon": "fa-github", "url": "https://github.com/elemdos" },
+      { "icon": "fa-linkedin", "url": "https://www.linkedin.com/in/matthew-morris-2b048b3a/" }
+    ]
   },
   {
     "id": 4,
     "image": "/img/team/Saadiq-DuCloux_443x414.jpg",
     "name": "Saadiq DuCloux",
     "title": "North America Marketing Manager",
-    "socialIcon1": "fa-facebook-f",
-    "socialUrl1": "https://www.facebook.com",
-    "socialIcon2": "fa-twitter",
-    "socialUrl2": "https://twitter.com",
-    "socialIcon3": "fa-linkedin",
-    "socialUrl3": "https://www.linkedin.com",
-    "socialIcon4": "fa-instagram",
-    "socialUrl4": "https://www.instagram.com"
-  },
-  {
-    "id": 5,
-    "image": "/img/team/image team placeholder.png",
-    "name": "Pamela Groder",
-    "title": "EU Marketing Manager",
-    "socialIcon1": "fa-facebook-f",
-    "socialUrl1": "https://www.facebook.com",
-    "socialIcon2": "fa-twitter",
-    "socialUrl2": "https://twitter.com",
-    "socialIcon3": "fa-linkedin",
-    "socialUrl3": "https://www.linkedin.com",
-    "socialIcon4": "fa-instagram",
-    "socialUrl4": "https://www.instagram.com"
+    "socials": [
+      { "icon": "fa-linkedin", "url": "https://www.linkedin.com/in/saadiq-ducloux/" }
+    ]
   }
 ]

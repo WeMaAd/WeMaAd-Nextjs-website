@@ -8,6 +8,7 @@ import Navbar from "../../components/Navbar";
 import PortfolioCustomColumn from "../../components/Portfolio-custom-column";
 import Services2 from "../../components/Services2";
 import SkillsCircle from "../../components/Skills-circle";
+import WhoWeWorkWith from "../../components/Who-we-work-with";
 import VideoWithTestimonials from "../../components/Video-with-testimonials";
 import DarkTheme from "../../layouts/Dark";
 
@@ -36,6 +37,7 @@ const Homepage2 = () => {
       <Navbar nr={navbarRef} lr={logoRef} />
       <IntroWithSlider2 />
       <BlcSec />
+      <WhoWeWorkWith />
       <Services2 />
       <VideoWithTestimonials />
       <SkillsCircle theme="dark" subBG />

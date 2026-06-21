@@ -17,10 +17,18 @@
   },
   {
     "id": 3,
-    "image": "/img/portfolio/mas/Primo2.png",
+    "image": "/img/portfolio/mas/primo-banner.png",
     "title": "Primo",
     "tags": ["Web Design"],
     "filterCategory": ["graphic"],
     "url": "https://primo.build/"
+  },
+  {
+    "id": 4,
+    "image": "/img/portfolio/full/amaken-banner.png",
+    "title": "Amaken",
+    "tags": ["Next.js", "NestJS", "PostgreSQL"],
+    "filterCategory": ["web"],
+    "url": "https://amaken.life/"
   }
 ]
