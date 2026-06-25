@@ -10,7 +10,7 @@ const Footer = () => {
     e.preventDefault();
     const formData = new FormData(e.target);
     try {
-      const res = await fetch("https://usebasin.com/f/f5aeb5b551e1", {
+      const res = await fetch(appData.formEndpoint, {
         method: "POST",
         headers: { Accept: "application/json" },
         body: formData,
@@ -42,33 +42,25 @@ const Footer = () => {
                 <ul>
                   <li>
                     <span>Email : </span>
-                    <a href="mailto:hello@wemaad.net">Hello@wemaad.net</a>
+                    <a href={`mailto:${appData.email}`}>{appData.emailDisplay}</a>
                   </li>
                   <li>
                     <span>Phone : </span>
-                    <a href="tel:+201142549787">+20 114 254 9787</a>
+                    <a href={`tel:${appData.phone}`}>{appData.phoneDisplay}</a>
                   </li>
                 </ul>
               </div>
               <div className="social-icon">
                 <h6 className="custom-font stit simple-btn">Follow Us</h6>
                 <div className="social">
-                  <a href="https://www.facebook.com/" className="icon">
-                    <i className="fab fa-facebook-f"></i>
-                  </a>
-                  <a
-                    href="https://www.instagram.com/wemaad.llc/"
-                    className="icon"
-                  >
+                  {/* <a href="" className="icon"><i className="fab fa-facebook-f"></i></a> */}
+                  <a href={appData.social.instagram} className="icon">
                     <i className="fab fa-instagram"></i>
                   </a>
-                  <a href="https://twitter.com/WemaadL" className="icon">
+                  <a href={appData.social.twitter} className="icon">
                     <i className="fab fa-twitter"></i>
                   </a>
-                  <a
-                    href="https://www.linkedin.com/company/wemaad/"
-                    className="icon"
-                  >
+                  <a href={appData.social.linkedin} className="icon">
                     <i className="fab fa-linkedin"></i>
                   </a>
                 </div>

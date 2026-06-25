@@ -105,13 +105,13 @@ const NavbarFullMenu = ({ theme, lr }) => {
                 <div className="item">
                   <h6>Phone :</h6>
                   <p>
-                    <a href="tel:+201142549787">+20 114 254 9787</a>
+                    <a href={`tel:${appData.phone}`}>{appData.phoneDisplay}</a>
                   </p>
                 </div>
                 <div className="item">
                   <h6>Email :</h6>
                   <p>
-                    <a href="mailto:hello@wemaad.net">Hello@wemaad.net</a>
+                    <a href={`mailto:${appData.email}`}>{appData.emailDisplay}</a>
                   </p>
                 </div>
               </div>

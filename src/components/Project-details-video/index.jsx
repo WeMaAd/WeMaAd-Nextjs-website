@@ -4,9 +4,6 @@ import "react-modal-video/css/modal-video.css";
 
 const ProjectDetailsVideo = ({ videoBackground, videoId, videoType }) => {
   const [isOpen, setOpen] = React.useState(false);
-  React.useEffect(() => {
-    console.clear();
-  }, []);
   return (
     <section>
       <h2 style={{ display: "none" }}> &nbsp; </h2>
