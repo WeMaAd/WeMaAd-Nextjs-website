@@ -19,11 +19,6 @@ function MyApp({ Component, pageProps }) {
       <Component {...pageProps} />
 
       <Script id="wow" strategy="afterInteractive" src="/js/wow.min.js"></Script>
-      <Script
-        strategy="afterInteractive"
-        id="splitting"
-        src="/js/splitting.min.js"
-      ></Script>
       <Script id="simpleParallax" strategy="lazyOnload" src="/js/simpleParallax.min.js"></Script>
       <Script
         id="isotope"
