@@ -1,4 +1,5 @@
 import React from "react";
+import Head from "next/head";
 import BlcSec from "../../components/Blc-sec";
 import CallToAction from "../../components/Call-to-action";
 import Clients1 from "../../components/Clients1";
@@ -19,7 +20,54 @@ const Homepage2 = () => {
 
   useNavbarScroll(navbarRef);
 
+  const siteUrl = "https://wemaad.net";
+  const description =
+    "WeMaAd is a senior product engineering studio in Cairo. We embed Rails and Next.js engineers directly into your team or build end-to-end products for you.";
+  const schemaOrg = {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    name: "WeMaAd",
+    url: siteUrl,
+    logo: `${siteUrl}/img/atom-logo-light.svg`,
+    description,
+    address: {
+      "@type": "PostalAddress",
+      addressLocality: "Cairo",
+      addressCountry: "EG",
+    },
+    contactPoint: {
+      "@type": "ContactPoint",
+      email: "hello@wemaad.net",
+      contactType: "customer service",
+    },
+    sameAs: [
+      "https://www.instagram.com/wemaad.llc/",
+      "https://twitter.com/WemaadL",
+      "https://www.linkedin.com/company/wemaad/",
+    ],
+  };
+
   return (
+    <>
+      <Head>
+        <title>WeMaAd</title>
+        <link rel="canonical" href={`${siteUrl}/`} />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content={`${siteUrl}/`} />
+        <meta property="og:title" content="WeMaAd — Senior Rails & Next.js Engineers" />
+        <meta property="og:description" content={description} />
+        <meta property="og:image" content={`${siteUrl}/img/atom-logo-light.svg`} />
+        <meta property="og:site_name" content="WeMaAd" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="@WemaadL" />
+        <meta name="twitter:title" content="WeMaAd — Senior Rails & Next.js Engineers" />
+        <meta name="twitter:description" content={description} />
+        <meta name="twitter:image" content={`${siteUrl}/img/atom-logo-light.svg`} />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaOrg) }}
+        />
+      </Head>
     <DarkTheme>
       <Navbar nr={navbarRef} lr={logoRef} />
       <IntroWithSlider2 />
@@ -33,6 +81,7 @@ const Homepage2 = () => {
       <CallToAction />
       <Footer />
     </DarkTheme>
+    </>
   );
 };
 

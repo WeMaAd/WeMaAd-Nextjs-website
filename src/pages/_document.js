@@ -19,7 +19,7 @@ class MyDocument extends Document {
           />
           <meta
             name="description"
-            content="WeMaAd is a senior product engineering studio based in Cairo. We embed Rails and Next.js engineers directly into your team, or build end-to-end products for you."
+            content="WeMaAd is a senior product engineering studio in Cairo. We embed Rails and Next.js engineers directly into your team or build end-to-end products for you."
           />
           <meta name="author" content="WeMaAd" />
           <meta name="robots" content="index, follow" />

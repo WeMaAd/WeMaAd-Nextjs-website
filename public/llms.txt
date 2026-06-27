@@ -1,0 +1,33 @@
+# WeMaAd
+
+> WeMaAd is a senior product engineering studio based in Cairo, Egypt. We embed Rails and Next.js engineers directly into your team, or build end-to-end products for you.
+
+## About
+
+WeMaAd is a product engineering studio that specializes in embedding senior engineers into client teams or building complete software products end-to-end. We work with startups and businesses that need high-quality, production-ready engineering delivered fast.
+
+- **Specializations**: Ruby on Rails, Next.js, React, AI integration, SaaS development
+- **Location**: Cairo, Egypt
+- **Model**: Staff augmentation (embedded engineers) or full product builds
+- **Contact**: hello@wemaad.net | +20 114 254 9787
+
+## Pages
+
+- [Home](https://wemaad.net/): Overview of services, client testimonials, and portfolio highlights
+- [About](https://wemaad.net/about/): Our story, team culture, and engineering philosophy
+- [How We Work](https://wemaad.net/how-we-work/): Our process for embedded engineering and product builds
+- [Showcase](https://wemaad.net/showcase2/): Portfolio of completed client projects
+- [Contact](https://wemaad.net/contact/): Get in touch to discuss your next project
+
+## Services
+
+- **Embedded Engineering**: Senior Rails and Next.js engineers placed directly inside your team, working your hours, in your tools, with your codebase
+- **End-to-End Product Builds**: Full product development from architecture and design through to deployment
+- **AI Integration**: Incorporating AI capabilities into existing Rails and Next.js products
+- **SaaS Development**: Building scalable multi-tenant SaaS platforms
+
+## Social
+
+- Instagram: https://www.instagram.com/wemaad.llc/
+- Twitter/X: https://twitter.com/WemaadL
+- LinkedIn: https://www.linkedin.com/company/wemaad/
