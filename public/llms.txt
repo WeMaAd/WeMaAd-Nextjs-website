@@ -1,12 +1,12 @@
 # WeMaAd
 
-> WeMaAd embeds senior Rails & Next.js engineers from Cairo directly into your team — or builds your entire product end-to-end. Two models, one team.
+> WeMaAd embeds senior engineers from Cairo directly into your team — or builds your entire product end-to-end. Two models, one team.
 
 ## About
 
 WeMaAd operates on two clear engagement models for companies that need high-quality engineering:
 
-1. **Embed** — We place senior Rails and Next.js engineers directly inside your existing team. They work your hours, in your tools, on your codebase. Same as a full-time hire, without the overhead.
+1. **Embed** — We place senior engineers directly inside your existing team. They work your hours, in your tools, on your codebase. Same as a full-time hire, without the overhead.
 2. **Build** — We take full ownership of a product, end-to-end: from architecture and design through to deployment and delivery.
 
 Engineers are based in Cairo, Egypt.
@@ -26,7 +26,7 @@ Engineers are based in Cairo, Egypt.
 ## Engagement Models
 
 ### Embed
-Senior engineers integrated into your team as if they were in-house. Suitable when you need to scale your team quickly with senior-level Rails or Next.js talent without the cost and delay of a full-time hire.
+Senior engineers integrated into your team as if they were in-house. Suitable when you need to scale your team quickly with senior-level engineering talent without the cost and delay of a full-time hire.
 
 ### Build End-to-End
 WeMaAd owns the full product lifecycle — discovery, architecture, design, development, testing, and deployment. Suitable when you need a complete product built from scratch or a major feature delivered independently.

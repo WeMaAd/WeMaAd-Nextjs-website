@@ -22,7 +22,7 @@ const Homepage2 = () => {
 
   const siteUrl = "https://wemaad.net";
   const description =
-    "WeMaAd embeds senior Rails & Next.js engineers from Cairo directly into your team — or builds your entire product end-to-end. Two models, one team.";
+    "WeMaAd embeds senior engineers from Cairo directly into your team — or builds your entire product end-to-end. Two models, one team.";
   const schemaOrg = {
     "@context": "https://schema.org",
     "@type": "Organization",

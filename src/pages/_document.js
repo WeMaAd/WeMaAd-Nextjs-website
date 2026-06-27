@@ -15,11 +15,11 @@ class MyDocument extends Document {
           <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
           <meta
             name="keywords"
-            content="embed senior developers, hire remote engineers Cairo, staff augmentation, Rails engineers, Next.js developers, end-to-end product development, offshore development Egypt, SaaS development, embedded engineering team"
+            content="embed senior developers, hire remote engineers Cairo, staff augmentation, end-to-end product development, offshore development Egypt, SaaS development, embedded engineering team, product studio Cairo"
           />
           <meta
             name="description"
-            content="WeMaAd embeds senior Rails & Next.js engineers from Cairo directly into your team — or builds your entire product end-to-end. Two models, one team."
+            content="WeMaAd embeds senior engineers from Cairo directly into your team — or builds your entire product end-to-end. Two models, one team."
           />
           <meta name="author" content="WeMaAd" />
           <meta name="robots" content="index, follow" />
