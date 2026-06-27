@@ -86,7 +86,7 @@ const VideoWithTestimonials = () => {
                         <div className="info">
                           <div className="img">
                             <div className="img-box">
-                              <img src={item.img} alt="" />
+                              <img src={item.img} alt={`${item.name} — ${item.position} at ${item.company}`} />
                             </div>
                           </div>
                           <div className="cont">

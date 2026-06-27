@@ -34,7 +34,7 @@ const Footer = () => {
             <div className="cont">
               <div className="logo">
                 <a href="#0" className="d-flex">
-                  <img src={`${appData.lightLogo}`} alt="" />
+                  <img src={`${appData.lightLogo}`} alt="WeMaAd logo" />
                   <h2>WeMaAd</h2>
                 </a>
               </div>
@@ -103,13 +103,13 @@ const Footer = () => {
               <h6 className="custom-font stit simple-btn">Instagram Post</h6>
               <div className="insta-gallary">
                 <a href="https://www.instagram.com/wemaad.llc/">
-                  <img src="/img/insta/1-1.jpg" alt="" />
+                  <img src="/img/insta/1-1.jpg" alt="WeMaAd Instagram post" />
                 </a>
                 <a href="https://www.instagram.com/wemaad.llc/">
-                  <img src="/img/insta/2-1.jpg" alt="" />
+                  <img src="/img/insta/2-1.jpg" alt="WeMaAd Instagram post" />
                 </a>
                 <a href="https://www.instagram.com/wemaad.llc/">
-                  <img src="/img/insta/3-1.jpg" alt="" />
+                  <img src="/img/insta/3-1.jpg" alt="WeMaAd Instagram post" />
                 </a>
               </div>
             </div>
