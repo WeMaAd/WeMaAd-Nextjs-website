@@ -87,7 +87,7 @@ const ContactWithMap = () => (
             >
               Also find us on
             </p>
-            <div className="social">
+            <div className="social" style={{ display: "flex", gap: "20px" }}>
               <a href={appData.social.instagram} className="icon" target="_blank" rel="noreferrer">
                 <i className="fab fa-instagram" />
               </a>
