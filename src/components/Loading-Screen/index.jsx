@@ -1,5 +1,6 @@
 import React from "react";
 import Router from "next/router";
+import Script from "next/script";
 import appData from "../../data/app.json";
 
 const LoadingScreen = () => {
@@ -15,14 +16,22 @@ const LoadingScreen = () => {
     const show = () => preloader.classList.remove("isdone");
     const hide = () => preloader.classList.add("isdone");
 
-    // Hide once the initial page has fully loaded
-    if (document.readyState === "complete") {
-      hide();
+    // Pace.js drives the nice initial-load animation
+    if (typeof Pace !== "undefined") {
+      Pace.on("done", hide);
+      // In case Pace already finished before this effect ran
+      if (document.body.classList.contains("pace-done")) hide();
     } else {
-      window.addEventListener("load", hide, { once: true });
+      // Fallback if pace.min.js hasn't loaded yet
+      if (document.readyState === "complete") {
+        hide();
+      } else {
+        window.addEventListener("load", hide, { once: true });
+      }
     }
 
-    // Show/hide on Next.js client-side navigation
+    // Next.js Router events handle client-side navigation reliably
+    // (Pace can't detect SPA route changes on its own)
     Router.events.on("routeChangeStart", show);
     Router.events.on("routeChangeComplete", hide);
     Router.events.on("routeChangeError", hide);
@@ -38,9 +47,12 @@ const LoadingScreen = () => {
   if (!appData.showLoading) return null;
 
   return (
-    <div className="showX">
-      <div id="preloader"></div>
-    </div>
+    <>
+      <Script id="pace" strategy="beforeInteractive" src="/js/pace.min.js" />
+      <div className="showX">
+        <div id="preloader"></div>
+      </div>
+    </>
   );
 };
 
