@@ -20,7 +20,7 @@ const BlcSec = () => {
                   className="extra-title wow words chars splitting"
                   data-splitting
                 >
-                  Senior product engineers. Embedded in your team or building for you.
+                  Embedded in your team or building your product end-to-end — senior engineering from Cairo.
                 </h2>
               </Split>
             </div>

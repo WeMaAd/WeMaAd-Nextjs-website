@@ -15,11 +15,11 @@ class MyDocument extends Document {
           <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
           <meta
             name="keywords"
-            content="senior rails engineers, next.js developers, product engineering studio, embedded engineering team, ruby on rails development, react development, AI integration, SaaS development, Cairo software engineers"
+            content="embed senior developers, hire remote engineers Cairo, staff augmentation, end-to-end product development, offshore development Egypt, SaaS development, embedded engineering team, product studio Cairo"
           />
           <meta
             name="description"
-            content="WeMaAd is a senior product engineering studio in Cairo. We embed Rails and Next.js engineers directly into your team or build end-to-end products for you."
+            content="WeMaAd embeds senior engineers from Cairo directly into your team — or builds your entire product end-to-end. Two models, one team."
           />
           <meta name="author" content="WeMaAd" />
           <meta name="robots" content="index, follow" />
@@ -54,6 +54,9 @@ class MyDocument extends Document {
             href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@200;300;400;500;600;700&display=swap"
             rel="stylesheet"
           />
+          {/* Must load synchronously so Splitting() is available before React hydration */}
+          {/* eslint-disable-next-line @next/next/no-sync-scripts */}
+          <script src="/js/splitting.min.js" />
         </Head>
 
         <body>

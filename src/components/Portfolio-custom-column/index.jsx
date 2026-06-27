@@ -1,5 +1,5 @@
-/* eslint-disable @next/next/no-img-element */
 import React from "react";
+import Image from "next/image";
 import Split from "../Split";
 import Link from "next/link";
 import initIsotope from "../../common/initIsotope";
@@ -63,7 +63,7 @@ const PortfolioCustomColumn = ({
                   <Link href={item.url}>
                     <a className="imago wow" target="_blank">
                       {item.image ? (
-                        <img src={item.image} alt={item.title} />
+                        <Image src={item.image} alt={item.title} layout="responsive" width={600} height={400} />
                       ) : (
                         <div
                           style={{

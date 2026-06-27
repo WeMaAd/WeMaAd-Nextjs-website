@@ -1,5 +1,6 @@
-/* eslint-disable @next/next/no-img-element */
 import React from "react";
+import Image from "next/image";
+import Link from "next/link";
 import appData from "../../data/app.json";
 
 const Footer = () => {
@@ -34,7 +35,7 @@ const Footer = () => {
             <div className="cont">
               <div className="logo">
                 <a href="#0" className="d-flex">
-                  <img src={`${appData.lightLogo}`} alt="WeMaAd logo" />
+                  <Image src={appData.lightLogo} alt="WeMaAd logo" width={32} height={32} />
                   <h2>WeMaAd</h2>
                 </a>
               </div>
@@ -67,7 +68,27 @@ const Footer = () => {
               </div>
             </div>
           </div>
-          <div className="col-lg-5 offset-lg-2">
+          <div className="col-lg-3 offset-lg-1">
+            <div className="mb-50">
+              <h6 className="custom-font stit simple-btn">Quick Links</h6>
+              <ul style={{ listStyle: "none", padding: 0, marginTop: "15px" }}>
+                {[
+                  { href: "/", label: "Home" },
+                  { href: "/about/", label: "About Us" },
+                  { href: "/how-we-work/", label: "How We Work" },
+                  { href: "/showcase2/", label: "Our Work" },
+                  { href: "/contact/", label: "Contact Us" },
+                ].map(({ href, label }) => (
+                  <li key={href} style={{ marginBottom: "8px" }}>
+                    <Link href={href}>
+                      <a style={{ color: "inherit", opacity: 0.7 }}>{label}</a>
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          </div>
+          <div className="col-lg-3">
             <div className="subscribe mb-50">
               <h6 className="custom-font stit simple-btn">Newsletter</h6>
               <p>
@@ -103,13 +124,13 @@ const Footer = () => {
               <h6 className="custom-font stit simple-btn">Instagram Post</h6>
               <div className="insta-gallary">
                 <a href="https://www.instagram.com/wemaad.llc/">
-                  <img src="/img/insta/1-1.jpg" alt="WeMaAd Instagram post" />
+                  <Image src="/img/insta/1-1.jpg" alt="WeMaAd Instagram post" width={60} height={60} />
                 </a>
                 <a href="https://www.instagram.com/wemaad.llc/">
-                  <img src="/img/insta/2-1.jpg" alt="WeMaAd Instagram post" />
+                  <Image src="/img/insta/2-1.jpg" alt="WeMaAd Instagram post" width={60} height={60} />
                 </a>
                 <a href="https://www.instagram.com/wemaad.llc/">
-                  <img src="/img/insta/3-1.jpg" alt="WeMaAd Instagram post" />
+                  <Image src="/img/insta/3-1.jpg" alt="WeMaAd Instagram post" width={60} height={60} />
                 </a>
               </div>
             </div>

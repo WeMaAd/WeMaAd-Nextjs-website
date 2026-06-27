@@ -21,9 +21,9 @@ const AboutIntro = () => {
                   engineering, where senior developers join your team and ship
                   like dedicated staff without the hiring overhead; and
                   end-to-end builds, from MVP to a scalable, production-ready
-                  product. Our stack is modern and proven: Ruby on Rails,
-                  Next.js, and AI/LLM integration for teams that want
-                  intelligent features without the R&amp;D detour.
+                  product. Our stack is modern and proven across the full web
+                  technology spectrum, including AI/LLM integration for teams
+                  that want intelligent features without the R&amp;D detour.
                 </p>
               </Split>
             </div>

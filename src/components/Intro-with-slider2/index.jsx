@@ -42,7 +42,7 @@ const IntroWithSlider2 = () => {
           border: 0,
         }}
       >
-        Senior Rails &amp; Next.js Engineers — WeMaAd
+        Embed Senior Engineers in Your Team — or Build End-to-End with WeMaAd
       </h1>
       <div className="swiper-container parallax-slider">
         {!load ? (

@@ -2,17 +2,17 @@
   {
     "id": 1,
     "title": {
-      "first": "Senior Rails",
-      "second": "+ Next.js Engineers"
+      "first": "Embed Senior Engineers",
+      "second": "in Your Team"
     },
-    "content": "Embedded in your team or building your product from scratch — senior engineering from Cairo for US and EU teams.",
+    "content": "Embedded in your team or building your product from scratch — senior engineering from Cairo for US, EU, and MENA teams.",
     "image": "/img/slid/01-1.jpg"
   },
   {
     "id": 2,
     "title": {
-      "first": "Senior Product",
-      "second": "Engineering"
+      "first": "Build End-to-End",
+      "second": "Products"
     },
     "content": "For startups and scaling teams — on your timezone. We ship like dedicated staff, without the hiring overhead.",
     "image": "/img/slid/03-1.jpg"
@@ -20,7 +20,7 @@
   {
     "id": 3,
     "title": "Build smarter, ship faster.",
-    "content": "Ruby on Rails · Next.js · AI/LLM Integration. Modern stack, proven results.",
+    "content": "Full-Stack · AI/LLM Integration. Modern stack, proven results.",
     "image": "/img/slid/02-1.jpg"
   }
 ]

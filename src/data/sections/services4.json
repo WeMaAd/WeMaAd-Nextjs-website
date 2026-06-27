@@ -15,7 +15,7 @@
     "id": 3,
     "title": "AI & LLM Integration",
     "icon": "pe-7s-gleam",
-    "content": "Add intelligent features to your product without the R&D detour. We integrate LLMs and AI into existing Rails and Next.js codebases."
+    "content": "Add intelligent features to your product without the R&D detour. We integrate LLMs and AI into existing codebases regardless of stack."
   },
   {
     "id": 4,
@@ -27,6 +27,6 @@
     "id": 5,
     "title": "SaaS Development",
     "icon": "pe-7s-rocket",
-    "content": "Modern SaaS products built on Ruby on Rails and Next.js. Subscription billing, multi-tenancy, admin dashboards — delivered fast and built to scale."
+    "content": "Modern SaaS products built with the right stack for your needs. Subscription billing, multi-tenancy, admin dashboards — delivered fast and built to scale."
   }
 ]

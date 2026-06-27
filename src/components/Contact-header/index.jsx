@@ -20,7 +20,7 @@ const ContactHeader = ({ sliderRef }) => {
                   <span>Let&apos;s</span>Talk About Your Project.
                 </h2>
                 <p>
-                  Ask us anything, or let&apos;s talk about working together.
+                  No forms. Just a direct conversation — we respond within one business day.
                 </p>
               </div>
 
