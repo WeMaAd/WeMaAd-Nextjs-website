@@ -13,34 +13,54 @@ const LoadingScreen = () => {
     const preloader = document.querySelector("#preloader");
     if (!preloader) return;
 
-    const show = () => preloader.classList.remove("isdone");
-    const hide = () => preloader.classList.add("isdone");
+    let hideTimer = null;
+    let isNavigating = false;
 
-    // Pace.js drives the nice initial-load animation
+    // Close curtains: instant (no CSS transition defined for this direction)
+    const show = () => {
+      isNavigating = true;
+      if (hideTimer) { clearTimeout(hideTimer); hideTimer = null; }
+      preloader.classList.remove("isdone");
+    };
+
+    // Open curtains: after `delay` ms, adds isdone which triggers the CSS
+    // curtain-slide animation (1s delay + 0.7s slide defined in the stylesheet).
+    // The delay ensures the browser has painted the closed-curtain state before
+    // we start the open transition — without it, remove+add in the same JS task
+    // gets batched and the animation never fires.
+    const hide = (delay = 0) => {
+      if (hideTimer) clearTimeout(hideTimer);
+      hideTimer = setTimeout(() => {
+        isNavigating = false;
+        preloader.classList.add("isdone");
+      }, delay);
+    };
+
+    // Pace.js drives the initial page-load animation
     if (typeof Pace !== "undefined") {
-      Pace.on("done", hide);
-      // In case Pace already finished before this effect ran
-      if (document.body.classList.contains("pace-done")) hide();
+      Pace.on("done", () => { if (!isNavigating) hide(0); });
+      if (document.body.classList.contains("pace-done")) hide(0);
     } else {
-      // Fallback if pace.min.js hasn't loaded yet
       if (document.readyState === "complete") {
-        hide();
+        hide(0);
       } else {
-        window.addEventListener("load", hide, { once: true });
+        window.addEventListener("load", () => hide(0), { once: true });
       }
     }
 
-    // Next.js Router events handle client-side navigation reliably
-    // (Pace can't detect SPA route changes on its own)
-    Router.events.on("routeChangeStart", show);
-    Router.events.on("routeChangeComplete", hide);
-    Router.events.on("routeChangeError", hide);
+    // Router events handle SPA navigation reliably
+    const onStart = show;
+    const onDone = () => hide(100);
+
+    Router.events.on("routeChangeStart", onStart);
+    Router.events.on("routeChangeComplete", onDone);
+    Router.events.on("routeChangeError", onDone);
 
     return () => {
-      window.removeEventListener("load", hide);
-      Router.events.off("routeChangeStart", show);
-      Router.events.off("routeChangeComplete", hide);
-      Router.events.off("routeChangeError", hide);
+      if (hideTimer) clearTimeout(hideTimer);
+      Router.events.off("routeChangeStart", onStart);
+      Router.events.off("routeChangeComplete", onDone);
+      Router.events.off("routeChangeError", onDone);
     };
   }, []);
 
