@@ -43,7 +43,8 @@ const WorksThreeColumnWithFilter = ({ filterPosition }) => {
                   <a target="_blank">
                     <img
                       src="/img/portfolio/mas/BirthGuardiansEgypt2.png"
-                      alt="image"
+                      alt="Birth Guardians Egypt website"
+                      loading="lazy"
                     />
                   </a>
                 </Link>
@@ -58,7 +59,7 @@ const WorksThreeColumnWithFilter = ({ filterPosition }) => {
               <div className="item-img wow fadeInUp" data-wow-delay=".4s">
                 <Link href="https://sitrstore.com">
                   <a target="_blank">
-                    <img src="/img/portfolio/mas/sitrstore.jpg" alt="image" />
+                    <img src="/img/portfolio/mas/sitrstore.jpg" alt="Sitr Garments Store website" loading="lazy" />
                   </a>
                 </Link>
               </div>
@@ -72,7 +73,7 @@ const WorksThreeColumnWithFilter = ({ filterPosition }) => {
               <div className="item-img wow fadeInUp" data-wow-delay=".4s">
                 <Link href="https://primo.build/">
                   <a target="_blank">
-                    <img src="/img/portfolio/mas/Primo2.png" alt="image" />
+                    <img src="/img/portfolio/mas/Primo2.png" alt="Primo website" loading="lazy" />
                   </a>
                 </Link>
               </div>

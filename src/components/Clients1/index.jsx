@@ -29,14 +29,15 @@ const Clients1 = ({ theme, subBG }) => {
                     <div className="img">
                       {item.darkImage ? (
                         theme === "light" ? (
-                          <img src={item.lightImage} alt={item.name} />
+                          <img src={item.lightImage} alt={item.name} loading="lazy" />
                         ) : (
-                          <img src={item.darkImage} alt={item.name} />
+                          <img src={item.darkImage} alt={item.name} loading="lazy" />
                         )
                       ) : (
                         <img
                           src={`data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='150' height='40'><text x='50%' y='50%' dominant-baseline='middle' text-anchor='middle' font-family='sans-serif' font-size='32' font-weight='700' fill='white'>${item.name}</text></svg>`}
                           alt={item.name}
+                          loading="lazy"
                         />
                       )}
                       <Split>
