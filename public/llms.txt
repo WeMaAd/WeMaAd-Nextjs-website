@@ -1,30 +1,35 @@
 # WeMaAd
 
-> WeMaAd is a senior product engineering studio based in Cairo, Egypt. We embed Rails and Next.js engineers directly into your team, or build end-to-end products for you.
+> WeMaAd embeds senior Rails & Next.js engineers from Cairo directly into your team — or builds your entire product end-to-end. Two models, one team.
 
 ## About
 
-WeMaAd is a product engineering studio that specializes in embedding senior engineers into client teams or building complete software products end-to-end. We work with startups and businesses that need high-quality, production-ready engineering delivered fast.
+WeMaAd operates on two clear engagement models for companies that need high-quality engineering:
 
-- **Specializations**: Ruby on Rails, Next.js, React, AI integration, SaaS development
+1. **Embed** — We place senior Rails and Next.js engineers directly inside your existing team. They work your hours, in your tools, on your codebase. Same as a full-time hire, without the overhead.
+2. **Build** — We take full ownership of a product, end-to-end: from architecture and design through to deployment and delivery.
+
+Engineers are based in Cairo, Egypt.
+
+- **Specializations**: Ruby on Rails, Next.js, React, AI integration, SaaS development, PostgreSQL, API design
 - **Location**: Cairo, Egypt
-- **Model**: Staff augmentation (embedded engineers) or full product builds
 - **Contact**: hello@wemaad.net | +20 114 254 9787
 
 ## Pages
 
-- [Home](https://wemaad.net/): Overview of services, client testimonials, and portfolio highlights
-- [About](https://wemaad.net/about/): Our story, team culture, and engineering philosophy
-- [How We Work](https://wemaad.net/how-we-work/): Our process for embedded engineering and product builds
+- [Home](https://wemaad.net/): Overview of both engagement models, client testimonials, and portfolio
+- [About](https://wemaad.net/about/): Our story, team, and engineering culture
+- [How We Work](https://wemaad.net/how-we-work/): Deep dive into the Embed and Build processes
 - [Showcase](https://wemaad.net/showcase2/): Portfolio of completed client projects
-- [Contact](https://wemaad.net/contact/): Get in touch to discuss your next project
+- [Contact](https://wemaad.net/contact/): Start a conversation about your next project
 
-## Services
+## Engagement Models
 
-- **Embedded Engineering**: Senior Rails and Next.js engineers placed directly inside your team, working your hours, in your tools, with your codebase
-- **End-to-End Product Builds**: Full product development from architecture and design through to deployment
-- **AI Integration**: Incorporating AI capabilities into existing Rails and Next.js products
-- **SaaS Development**: Building scalable multi-tenant SaaS platforms
+### Embed
+Senior engineers integrated into your team as if they were in-house. Suitable when you need to scale your team quickly with senior-level Rails or Next.js talent without the cost and delay of a full-time hire.
+
+### Build End-to-End
+WeMaAd owns the full product lifecycle — discovery, architecture, design, development, testing, and deployment. Suitable when you need a complete product built from scratch or a major feature delivered independently.
 
 ## Social
 

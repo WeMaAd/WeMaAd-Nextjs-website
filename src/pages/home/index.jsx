@@ -22,7 +22,7 @@ const Homepage2 = () => {
 
   const siteUrl = "https://wemaad.net";
   const description =
-    "WeMaAd is a senior product engineering studio in Cairo. We embed Rails and Next.js engineers directly into your team or build end-to-end products for you.";
+    "WeMaAd embeds senior Rails & Next.js engineers from Cairo directly into your team — or builds your entire product end-to-end. Two models, one team.";
   const schemaOrg = {
     "@context": "https://schema.org",
     "@type": "Organization",
@@ -50,17 +50,17 @@ const Homepage2 = () => {
   return (
     <>
       <Head>
-        <title>WeMaAd</title>
+        <title>WeMaAd — Embed Senior Developers or Build End-to-End</title>
         <link rel="canonical" href={`${siteUrl}/`} />
         <meta property="og:type" content="website" />
         <meta property="og:url" content={`${siteUrl}/`} />
-        <meta property="og:title" content="WeMaAd — Senior Rails & Next.js Engineers" />
+        <meta property="og:title" content="WeMaAd — Embed Senior Developers or Build End-to-End" />
         <meta property="og:description" content={description} />
         <meta property="og:image" content={`${siteUrl}/img/atom-logo-light.svg`} />
         <meta property="og:site_name" content="WeMaAd" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="@WemaadL" />
-        <meta name="twitter:title" content="WeMaAd — Senior Rails & Next.js Engineers" />
+        <meta name="twitter:title" content="WeMaAd — Embed Senior Developers or Build End-to-End" />
         <meta name="twitter:description" content={description} />
         <meta name="twitter:image" content={`${siteUrl}/img/atom-logo-light.svg`} />
         <script

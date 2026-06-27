@@ -1,5 +1,5 @@
-/* eslint-disable @next/next/no-img-element */
 import React from "react";
+import Image from "next/image";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -86,7 +86,7 @@ const VideoWithTestimonials = () => {
                         <div className="info">
                           <div className="img">
                             <div className="img-box">
-                              <img src={item.img} alt={`${item.name} — ${item.position} at ${item.company}`} loading="lazy" />
+                              <Image src={item.img} alt={`${item.name} — ${item.position} at ${item.company}`} width={70} height={70} />
                             </div>
                           </div>
                           <div className="cont">

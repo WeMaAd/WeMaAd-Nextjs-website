@@ -1,5 +1,5 @@
-/* eslint-disable @next/next/no-img-element */
 import React from "react";
+import Image from "next/image";
 import Link from "next/link";
 import initIsotope from "../../common/initIsotope";
 
@@ -41,11 +41,7 @@ const WorksThreeColumnWithFilter = ({ filterPosition }) => {
               <div className="item-img wow fadeInUp" data-wow-delay=".4s">
                 <Link href="https://birthguardians-eg.org/">
                   <a target="_blank">
-                    <img
-                      src="/img/portfolio/mas/BirthGuardiansEgypt2.png"
-                      alt="Birth Guardians Egypt website"
-                      loading="lazy"
-                    />
+                    <Image src="/img/portfolio/mas/BirthGuardiansEgypt2.png" alt="Birth Guardians Egypt website" layout="responsive" width={600} height={400} />
                   </a>
                 </Link>
               </div>
@@ -59,7 +55,7 @@ const WorksThreeColumnWithFilter = ({ filterPosition }) => {
               <div className="item-img wow fadeInUp" data-wow-delay=".4s">
                 <Link href="https://sitrstore.com">
                   <a target="_blank">
-                    <img src="/img/portfolio/mas/sitrstore.jpg" alt="Sitr Garments Store website" loading="lazy" />
+                    <Image src="/img/portfolio/mas/sitrstore.jpg" alt="Sitr Garments Store website" layout="responsive" width={600} height={400} />
                   </a>
                 </Link>
               </div>
@@ -73,7 +69,7 @@ const WorksThreeColumnWithFilter = ({ filterPosition }) => {
               <div className="item-img wow fadeInUp" data-wow-delay=".4s">
                 <Link href="https://primo.build/">
                   <a target="_blank">
-                    <img src="/img/portfolio/mas/Primo2.png" alt="Primo website" loading="lazy" />
+                    <Image src="/img/portfolio/mas/Primo2.png" alt="Primo website" layout="responsive" width={600} height={400} />
                   </a>
                 </Link>
               </div>

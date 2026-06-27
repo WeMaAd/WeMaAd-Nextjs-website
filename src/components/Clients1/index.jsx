@@ -1,5 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 import React from "react";
+import Image from "next/image";
 import Clients1Data from "../../data/sections/clients1.json";
 import Split from "../Split";
 
@@ -29,9 +30,9 @@ const Clients1 = ({ theme, subBG }) => {
                     <div className="img">
                       {item.darkImage ? (
                         theme === "light" ? (
-                          <img src={item.lightImage} alt={item.name} loading="lazy" />
+                          <Image src={item.lightImage} alt={item.name} width={150} height={50} style={{ objectFit: "contain" }} />
                         ) : (
-                          <img src={item.darkImage} alt={item.name} loading="lazy" />
+                          <Image src={item.darkImage} alt={item.name} width={150} height={50} style={{ objectFit: "contain" }} />
                         )
                       ) : (
                         <img
